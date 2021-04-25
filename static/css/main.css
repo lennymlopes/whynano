@@ -46,3 +46,7 @@ html, body {
 .main section h3 {
   padding: 1rem 0;
 }
+
+.active {
+  outline: 5px solid red;
+}
