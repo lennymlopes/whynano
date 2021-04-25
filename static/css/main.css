@@ -16,6 +16,7 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 1rem;
 }
 
 .intro {
@@ -32,6 +33,7 @@ html, body {
   align-items: center;
   justify-content: center;
   /* margin-bottom: 8rem; */
+  
 }
 
 .main section {
@@ -40,12 +42,13 @@ html, body {
   min-height: 30vh;
   color: white;
   background-color: #252525;
-  margin: 1rem;
+  /* margin: 1rem; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   border-radius: 1rem;
+  margin-bottom: 1rem;
 
   opacity: 0;
   transform: scale(0.1);
@@ -59,4 +62,21 @@ html, body {
 .main section.active {
   opacity: 1;
   transform: scale(1);
+}
+
+.outro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #454545;
+  border-radius: 1rem;
+}
+
+.outro h2 {
+  padding: 1rem;
+}
+
+.outro p {
+  padding: 1rem;
 }
