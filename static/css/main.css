@@ -75,6 +75,8 @@ html, body {
   justify-content: space-between;
   background-color: #454545;
   border-radius: 1rem;
+  max-width: 75ch;
+  margin: 5rem 0;
 }
 
 .outro h2 {
