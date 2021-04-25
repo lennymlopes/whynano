@@ -33,7 +33,14 @@ html, body {
 .main section {
   max-width: 75ch;
   padding: 2rem;
-  height: 100vh;
+  height: 30vh;
+  color: white;
+  background-color: #252525;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .main section h3 {
