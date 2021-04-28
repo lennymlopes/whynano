@@ -87,7 +87,7 @@ section.solid::before {
   top: calc(-1 * var(--border-size));
   height: var(--border-size);
   width: 100%;
-  background: linear-gradient(to top, var(--color-bg), transparent);
+  background: linear-gradient(to top, var(--color-bg), rgba(255, 255, 255, 0.001));
 }
 
 section.solid::after {
@@ -96,7 +96,7 @@ section.solid::after {
   bottom: calc(-1 * var(--border-size));
   height: var(--border-size);
   width: 100%;
-  background: linear-gradient(to bottom, var(--color-bg), transparent);
+  background: linear-gradient(to bottom, var(--color-bg), rgba(255, 255, 255, 0.001));
 }
 
 section.transparent {
