@@ -46,7 +46,17 @@ html, body {
   justify-content: center;
   /* margin-bottom: 8rem; */
   scroll-snap-type: mandatory;
-  
+}
+
+.main::after {
+  position: fixed;
+  content: "";
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: var(--color-transparent);
 }
 
 .bg-video {
@@ -59,15 +69,10 @@ html, body {
   z-index: -1;
 }
 
-.filter {
-  position: fixed;
-  top: 0;
-  left:0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background-color: var(--color-transparent);
-}
+
+
+
+
 
 .main section {
   
