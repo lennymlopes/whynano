@@ -16,7 +16,7 @@ html, body {
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
   color: var(--color-fg);
-  background-color: var(--color-transparent);
+  /* background-color: var(--color-transparent); */
 }
 
 .container {
@@ -57,6 +57,16 @@ html, body {
   height: 100%;
   object-fit: cover;
   z-index: -1;
+}
+
+.filter {
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: var(--color-transparent);
 }
 
 .main section {
