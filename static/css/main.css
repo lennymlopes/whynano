@@ -86,12 +86,14 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   /* border-radius: 1rem; */
   /* margin-bottom: 2rem; */
   position: relative;
   z-index: 5;
   /* scroll-snap-align: start; */
+
+  
 }
 
 section.solid {
@@ -120,13 +122,18 @@ section.solid::after {
   background-color: var(--color-transparent);
 } */
 
-.main section h3 {
+.section-title {
+  width: 100%;
+  font-size: xx-large;
   padding: 1rem 0;
+  opacity: 0;
+  transform: translateY(-3rem);
+  transition: opacity 0.5s, transform 0.5s;
 }
 
-.main section.active {
+.active {
   opacity: 1;
-  transform: scale(1);
+  transform: translateY(0);
 }
 
 .outro {
