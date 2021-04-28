@@ -96,11 +96,11 @@ html, body {
   
 }
 
-section.solid {
+.solid {
   background-color: var(--color-bg);
 }
 
-section.solid::before {
+.solid::before {
   position: absolute;
   content: "";
   top: calc(-1 * var(--border-size));
@@ -109,7 +109,7 @@ section.solid::before {
   background: linear-gradient(to top, var(--color-bg), rgba(255, 255, 255, 0.001));
 }
 
-section.solid::after {
+.solid::after {
   position: absolute;
   content: "";
   bottom: calc(-1 * var(--border-size));
@@ -139,16 +139,14 @@ section.solid::after {
 .outro {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
-  background-color: #454545;
-  border-radius: 1rem;
+  /* background-color: #454545; */
+  /* border-radius: 1rem; */
+  position: relative;
   max-width: 75ch;
   margin: 5rem 0;
-}
-
-.outro h2 {
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 .outro .steps {
@@ -162,9 +160,11 @@ section.solid::after {
   color: #4a90e2;
 }
 
-.outro p {
-  padding: 1rem;
+.outro > * {
+  padding: 0.5rem 2rem;
 }
+
+
 
 .flip {
   animation: flip 2s forwards;
