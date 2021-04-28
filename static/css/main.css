@@ -45,6 +45,7 @@ html, body {
   align-items: center;
   justify-content: center;
   /* margin-bottom: 8rem; */
+  scroll-snap-type: mandatory;
   
 }
 
@@ -59,11 +60,11 @@ html, body {
 }
 
 .main section {
-  scroll-margin-top: 0;
+  
   /* max-width: 75ch; */
   padding: 2rem;
   min-height: 30vh;
-  height: 120vh;
+  height: 100vh;
   color: var(--color-fg);
   
   /* margin: 1rem; */
@@ -75,6 +76,7 @@ html, body {
   /* margin-bottom: 2rem; */
   position: relative;
   z-index: 5;
+  /* scroll-snap-align: start; */
 }
 
 section.solid {
@@ -99,9 +101,9 @@ section.solid::after {
   background: linear-gradient(to bottom, var(--color-bg), rgba(255, 255, 255, 0.001));
 }
 
-section.transparent {
+/* section.transparent {
   background-color: var(--color-transparent);
-}
+} */
 
 .main section h3 {
   padding: 1rem 0;
