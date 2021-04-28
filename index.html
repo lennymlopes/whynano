@@ -4,13 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Scroll Animation</title>
+  <title>Why Nano?</title>
   <link rel="stylesheet" href="static/css/main.css">
   <script src="static/js/main.js"></script>
 </head>
 <body>
   <div class="container">
-    <video autoplay muted loop playsinline buffer class="bg-video" src="static/vid/02.mp4" poster="static/img/02.png"></video>
+    <video autoplay muted loop playsinline buffer class="bg-video"  poster="static/img/02.png">
+      <source src="static/vid/02.webm" type="video/webm" />
+      <source src="static/vid/02.mp4" type="video/mp4" />
+    </video>
     <div class="filter"></div>
     <div class="intro">
       <div class="welcome">
