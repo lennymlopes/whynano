@@ -75,8 +75,19 @@ html, body {
 }
 
 
+header {
+  position: fixed;
+  top:0;
+  left:0;
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  z-index: 999;
+}
 
-
+svg {
+  height: 3rem;
+}
 
 
 .main section {
