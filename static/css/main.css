@@ -1,6 +1,7 @@
 :root {
   
-  --color-dark-blue: #000034;
+  --color-dark-blue: #00001b;
+  --color-darker-blue: #000034;
   --color-soft-blue: #4A90E2;
   --color-blue-grey: #676686;
   --color-light-blue: #F4FAFF;
@@ -8,7 +9,7 @@
   --color-transparent: rgba(255, 255, 255, 0.8);
 
   --color-bg: white;
-  --color-fg: var(--color-dark-blue);
+  --color-fg: var(--color-darker-blue);
 
   --border-size: 6rem;
   --toggle-size: 2rem;
