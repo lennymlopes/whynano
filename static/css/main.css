@@ -440,6 +440,10 @@ svg {
 
 }
 
+a {
+  color: var(--color-soft-blue);
+}
+
 .steps a {
   text-decoration: none;
   color: var(--color-soft-blue);
