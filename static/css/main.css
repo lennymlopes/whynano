@@ -269,6 +269,7 @@ input:checked + nav a{
 } */
 
 .section-group {
+  width: 100%;
   max-width: 50ch;
 }
 
@@ -416,17 +417,18 @@ input:checked + nav a{
 
 .flip {
   animation: flip 2s forwards;
-  transform-origin: top;
 }
 
 @keyframes flip {
   from {
-    -webkit-transform: rotateX(90deg);
-    transform: rotateX(90deg);
+    -webkit-transform: perspective(10rem) rotateX(-90deg);
+    transform: perspective(10rem) rotateX(-90deg);
+    transform-origin: top;
   }
   to {
-    -webkit-transform: rotateX(0deg);
-    transform: rotateX(0deg);
+    -webkit-transform: perspective(10rem) rotateX(0deg);
+    transform: perspective(10rem) rotateX(0deg);
+    transform-origin: top;
   }
 }
 
