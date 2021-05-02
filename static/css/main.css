@@ -1,11 +1,11 @@
 :root {
   --color-bg: white;
-  --color-fg: black;
-  --color-dark-blue: #000034;
+  --color-fg: black;--color-dark-blue: #000034;
   --color-soft-blue: #4A90E2;
   --color-blue-grey: #676686;
   --color-light-blue: #F4FAFF;
-  --color-transparent: rgba(255, 255, 255, 0.5);
+  --color-bitcoin-orange: #f09e0e;
+  --color-transparent: rgba(255, 255, 255, 0.8);
   --border-size: 6rem;
   --toggle-size: 2rem;
 }
@@ -25,10 +25,26 @@ html, body {
 }
 
 .container {
-  display: flex;
+  display: flex; 
   flex-direction: column;
   align-items: center;
   /* padding: 1rem; */
+}
+
+.dark-blue {
+  color: var(--color-dark-blue);
+}
+
+.light-blue {
+  color: var(--color-light-blue);
+}
+
+.soft-blue {
+  color: var(--color-soft-blue);
+}
+
+.bitcoin-orange {
+  color: var(--color-bitcoin-orange)
 }
 
 .intro {
@@ -40,8 +56,20 @@ html, body {
   z-index: 5;
 }
 
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro h1 {
+  width: max-content;
+}
+
 .intro h2 {
   color: #4a90e2;
+  width: max-content;
 }
 
 .main {
@@ -234,10 +262,13 @@ input:checked + nav a{
   background-color: var(--color-transparent);
 } */
 
-
+.section-group {
+  width: 50ch;
+}
 
 .section-title {
-  width: max-content;
+  /* width: max-content; */
+  /* max-width: 25ch; */
   font-size: xx-large;
   padding: 1rem 0;
 }
@@ -245,6 +276,7 @@ input:checked + nav a{
 .section-paragraph {
   max-width: 50ch;
   font-size: larger;
+  margin-bottom: 1rem;
 }
 
 .section-title, .section-paragraph,  .steps{
