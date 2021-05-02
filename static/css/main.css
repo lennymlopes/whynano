@@ -445,13 +445,14 @@ a {
 }
 
 .steps a {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: var(--color-soft-blue);
-  font-size: larger;
+  font-size: x-large;
+  padding-bottom: 0.5rem;
 }
 
 .outro .section-group > * {
-  padding: 0.5rem 0;
+  padding-bottom: 1rem;
 }
 
 
