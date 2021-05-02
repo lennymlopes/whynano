@@ -294,7 +294,7 @@ input:checked + nav a{
   gap: 1rem;
   align-items: flex-end;
   justify-items: center;
-  margin: 3rem 0;
+  margin: 5rem 0;
   /* max-width: 100vw; */
 }
 
@@ -320,16 +320,29 @@ input:checked + nav a{
   text-align: center;
 }
 
+.fade {
+  opacity: 0;
+  transform: translateY(-1rem);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
 .bar {
   width: 50%;
   border-radius: 0.2rem;
   transform: scale(1,0);
   transform-origin: bottom;
-  transition: transform 2s;
+  transition: transform 2s, opacity 0.5s;
 }
 
 .bar.active {
-  transform: scale(1,1);
+  transform: scale(1,1) translateY(0);
+}
+
+
+
+.active {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 #bitcoin-speed {
@@ -371,16 +384,7 @@ input:checked + nav a{
   transition: opacity 0.5s, transform 0.5s;
 } */
 
-.fade {
-  opacity: 0;
-  transform: translateY(-1rem);
-  transition: opacity 0.5s, transform 0.5s;
-}
 
-.active {
-  opacity: 1;
-  transform: translateY(0);
-}
 
 .outro {
   display: flex;
