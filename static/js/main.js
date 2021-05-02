@@ -11,3 +11,18 @@ window.addEventListener('scroll', () => {
     }
   }
 })
+
+window.addEventListener('scroll', () => {
+  let graphs = document.querySelectorAll('.bar')
+  let position = window.innerHeight
+  for(graph of graphs) {
+    
+    if(graph.getBoundingClientRect().bottom / 0.9 < position) {
+      graph.classList.add('active')
+      // graph.innerHeight = "50rem"
+    } 
+    else if (graph.getBoundingClientRect().top / 0.7 > position) {
+      graph.classList.remove('active')
+    }
+  }
+})

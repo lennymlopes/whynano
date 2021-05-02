@@ -295,6 +295,7 @@ input:checked + nav a{
   font-size: x-large;
   grid-column: 1 / -1;
   width: 100%;
+  margin-bottom: 1rem;
 }
 
 .comparison-paragraph {
@@ -312,38 +313,45 @@ input:checked + nav a{
   text-align: center;
 }
 
+.bar {
+  width: 50%;
+  border-radius: 0.2rem;
+  transform: scale(1,0);
+  transform-origin: bottom;
+  transition: transform 2s;
+}
 
+.bar.active {
+  transform: scale(1,1);
+}
 
 #bitcoin-speed {
-  width: 10%;
-  height: 5rem;
+  height: 8rem;
   background-color: var(--color-bitcoin-orange);
   position: relative;
 }
 
+
+
 #nano-speed {
-  width: 10%;
   height: 0.1rem;
   background-color: var(--color-soft-blue);
   position: relative;
 }
 
 #bitcoin-fees {
-  width: 10%;
-  height: 5rem;
+  height: 12rem;
   background-color: var(--color-bitcoin-orange);
   position: relative;
 }
 
 #bitcoin-energy {
-  width: 10%;
   height: 15rem;
   background-color: var(--color-bitcoin-orange);
   position: relative;
 }
 
 #nano-energy {
-  width: 10%;
   height: 0.1rem;
   background-color: var(--color-soft-blue);
   position: relative;
