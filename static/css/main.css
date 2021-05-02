@@ -352,10 +352,9 @@ a {
   position: relative;
 }
 
-.steps > a::before {
+/* .steps > a::before {
   position: absolute;
   left: -0.9em;
-  /* top: -0.3em; */
   color: var(--color-dark-blue);
   font-weight: 900;
   font-size: 1.5rem;
@@ -377,7 +376,7 @@ a {
 
 #nano-org::before {
   content: "4";
-}
+} */
 
 
 
