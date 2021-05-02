@@ -7,6 +7,7 @@
   --color-light-blue: #F4FAFF;
   --color-bitcoin-orange: #f09e0e;
   --color-transparent: rgba(255, 255, 255, 0.8);
+  --color-fade: rgba(255, 255, 255, 0.001);
 
   --color-bg: white;
   --color-fg: var(--color-darker-blue);
@@ -16,14 +17,15 @@
 
 
 }
-/* 
+
 @media (prefers-color-scheme: dark) {
   :root {
   --color-bg: black;
   --color-fg: var(--color-light-blue);
   --color-transparent: rgba(0, 0, 0, 0.8);
+  --color-fade: rgba(0, 0, 0, 0.001);
   }
-} */
+}
 
 
 
@@ -191,7 +193,7 @@ svg {
   top: calc(-1 * var(--border-size));
   height: var(--border-size);
   width: 100%;
-  background: linear-gradient(to top, var(--color-bg), rgba(255, 255, 255, 0.001));
+  background: linear-gradient(to top, var(--color-bg), var(--color-fade));
 }
 
 .solid::after {
@@ -200,7 +202,7 @@ svg {
   bottom: calc(-1 * var(--border-size));
   height: var(--border-size);
   width: 100%;
-  background: linear-gradient(to bottom, var(--color-bg), rgba(255, 255, 255, 0.001));
+  background: linear-gradient(to bottom, var(--color-bg), var(--color-fade));
 }
 
 /* section.transparent {
