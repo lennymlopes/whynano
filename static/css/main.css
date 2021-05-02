@@ -43,6 +43,10 @@ html, body {
   color: var(--color-soft-blue);
 }
 
+.blue-grey {
+  color: var(--color-blue-grey);
+}
+
 .bitcoin-orange {
   color: var(--color-bitcoin-orange)
 }
@@ -357,7 +361,7 @@ svg {
 }
 
 #bitcoin-speed {
-  height: 8rem;
+  height: 13rem;
   background-color: var(--color-bitcoin-orange);
   position: relative;
 }
@@ -422,7 +426,7 @@ svg {
 
 .steps a {
   text-decoration: none;
-  color: #4a90e2;
+  color: var(--color-soft-blue);
   font-size: larger;
 }
 
