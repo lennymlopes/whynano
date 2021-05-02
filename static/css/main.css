@@ -93,6 +93,10 @@ html, body {
   background-color: var(--color-transparent);
 }
 
+p {
+  font-size: larger;
+}
+
 .bg-video {
   position: fixed;
   top: 0;
@@ -401,6 +405,7 @@ input:checked + nav a{
 .steps a {
   text-decoration: none;
   color: #4a90e2;
+  font-size: larger;
 }
 
 .outro .section-group > * {
