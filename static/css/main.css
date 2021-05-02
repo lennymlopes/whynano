@@ -348,11 +348,45 @@ a {
   color: var(--color-soft-blue);
 }
 
+.steps > a {
+  position: relative;
+}
+
+.steps > a::before {
+  position: absolute;
+  left: -0.9em;
+  /* top: -0.3em; */
+  color: var(--color-dark-blue);
+  font-weight: 900;
+  font-size: 1.5rem;
+  z-index: -1;
+}
+
+#wallet::before {
+  content: "1";
+}
+
+
+#faucet::before {
+  content: "2";
+}
+
+#wenano::before {
+  content: "3";
+}
+
+#nano-org::before {
+  content: "4";
+}
+
+
+
+
 .steps a {
   /* text-decoration: none; */
   color: var(--color-soft-blue);
   font-size: x-large;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.8rem;
 }
 
 .outro .section-group > * {
