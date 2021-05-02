@@ -341,7 +341,6 @@ input:checked + nav a{
 
   
   nav {
-    grid-column: 3 / span 1;
     position: relative;
     display: flex;
     justify-content: flex-end;
@@ -354,13 +353,22 @@ input:checked + nav a{
     left: initial;
   }
 
-  .logo {
-    grid-column: 2 / span 1;
-  }
+
 
   nav a {
     margin-bottom: 0;
     opacity: 1;
     margin-left: 1em;
   }
+
+  /* .main section {
+    align-items: flex-start;
+  }
+
+  .section-group:nth-child(2) {
+    margin-left: auto;
+  } */
+
+
+
 }
