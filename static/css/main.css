@@ -297,6 +297,11 @@ input:checked + nav a{
   width: 100%;
 }
 
+.comparison-paragraph {
+  grid-column: 1 / -1;
+  width: 100%;
+}
+
 .grid-left {
   grid-column: 1 / 2;
   text-align: center;
