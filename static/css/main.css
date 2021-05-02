@@ -15,14 +15,14 @@
 
 
 }
-
+/* 
 @media (prefers-color-scheme: dark) {
   :root {
   --color-bg: black;
   --color-fg: var(--color-light-blue);
   --color-transparent: rgba(0, 0, 0, 0.8);
   }
-}
+} */
 
 
 
