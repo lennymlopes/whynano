@@ -7,6 +7,7 @@
   --color-light-blue: #F4FAFF;
   --color-transparent: rgba(255, 255, 255, 0.5);
   --border-size: 6rem;
+  --toggle-size: 2rem;
 }
 
 * {
@@ -77,16 +78,110 @@ html, body {
 
 header {
   position: fixed;
+  justify-content: space-between;
+  align-items: center;
   top:0;
   left:0;
   display: flex;
   width: 100%;
-  padding: 2rem;
+  padding: 1rem;
   z-index: 999;
+  background-color: var(--color-transparent);
 }
 
-svg {
-  height: 3rem;
+nav {
+  position: absolute;
+  text-align: center;
+  top: 100%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 0.5s ease-in-out;
+}
+
+nav a {
+  text-decoration: none;
+  margin-bottom: 1em;
+  font-size: larger;
+  text-transform: uppercase;
+  opacity: 0;
+  color: var(--color-dark-blue);
+  transition: opacity 150ms ease-in-out;
+  font-weight: lighter;
+}
+
+
+input:checked + nav {
+  height: max-content;
+  transform: scale(1, 1);
+  background-color: var(--color-transparent);
+}
+
+input:checked + nav a{
+  opacity: 1;
+  transition: opacity 150ms ease-in-out 150ms;
+}
+
+/* menu toggle style */
+.toggle {
+  
+  position: relative;
+  width: var(--toggle-size);
+  height: var(--toggle-size);
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.toggle:hover {
+  animation: wiggle 0.3s forwards;
+}
+.toggle::before, .toggle::after {
+  position: absolute;
+  content: "";
+  background-color: var(--color-dark-blue);
+  border-radius: var(--toggle-size);
+  width: var(--toggle-size);
+  height: calc(var(--toggle-size)/8);
+  top: 50%;
+  left: 50%;
+  margin-left: calc(-1 * var(--toggle-size)/2);
+  margin-top: calc(-1 * var(--toggle-size)/20);
+  transition: transform 0.5s ;
+  opacity: 1;
+}
+
+.toggle::before {
+  transform: translateY(calc(var(--toggle-size)/4)) rotate(0deg);
+}
+
+.toggle::after {
+  transform: translateY(calc(-1 * var(--toggle-size)/4)) rotate(0deg);
+}
+
+.toggle:checked::before {
+  transform: translateY(0) rotate(45deg);
+}
+
+.toggle:checked::after {
+  transform: translateY(0) rotate(315deg);
+}
+
+/* .logo {
+  height: 2rem;
+  width: 2rem;
+} */
+
+/* svg {
+  height: 2rem;
+} */
+
+.logo svg {
+  width: 2rem;
 }
 
 
@@ -235,4 +330,37 @@ svg {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: #4a90e2; }
+}
+
+
+@media screen and (min-width: 768px) {
+  .toggle {
+    display: none;
+  }
+
+
+  
+  nav {
+    grid-column: 3 / span 1;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    transform: scale(1,1);
+    transition: none;
+    top: initial;
+    left: initial;
+  }
+
+  .logo {
+    grid-column: 2 / span 1;
+  }
+
+  nav a {
+    margin-bottom: 0;
+    opacity: 1;
+    margin-left: 1em;
+  }
 }
