@@ -218,8 +218,10 @@ input:checked + nav a{
   /* max-width: 75ch; */
   width: 100%;
   padding: 2rem;
-  min-height: 30vh;
-  height: 100vh;
+  min-height: 100vh;
+  height: max-content;
+  /* max-height: max-content; */
+  /* height: clamp(30vh, 100vh, max-content); */
   color: var(--color-dark-blue);
   
   /* margin: 1rem; */
@@ -263,7 +265,7 @@ input:checked + nav a{
 } */
 
 .section-group {
-  width: 50ch;
+  max-width: 50ch;
 }
 
 .section-title {
@@ -274,12 +276,82 @@ input:checked + nav a{
 }
 
 .section-paragraph {
-  max-width: 50ch;
-  font-size: larger;
+  /* max-width: 50ch; */
+  /* font-size: larger; */
   margin-bottom: 1rem;
 }
 
-.section-title, .section-paragraph,  .steps{
+.comparison-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: flex-end;
+  justify-items: center;
+  margin-bottom: 3rem;
+  /* max-width: 100vw; */
+}
+
+.comparison-title {
+  font-size: x-large;
+  grid-column: 1 / -1;
+  width: 100%;
+}
+
+.grid-left {
+  grid-column: 1 / 2;
+  text-align: center;
+}
+
+.grid-right {
+  grid-column: -2 / -1;
+  text-align: center;
+}
+
+
+
+#bitcoin-speed {
+  width: 10%;
+  height: 5rem;
+  background-color: var(--color-bitcoin-orange);
+  position: relative;
+}
+
+#nano-speed {
+  width: 10%;
+  height: 0.1rem;
+  background-color: var(--color-soft-blue);
+  position: relative;
+}
+
+#bitcoin-fees {
+  width: 10%;
+  height: 5rem;
+  background-color: var(--color-bitcoin-orange);
+  position: relative;
+}
+
+#bitcoin-energy {
+  width: 10%;
+  height: 15rem;
+  background-color: var(--color-bitcoin-orange);
+  position: relative;
+}
+
+#nano-energy {
+  width: 10%;
+  height: 0.1rem;
+  background-color: var(--color-soft-blue);
+  position: relative;
+}
+
+
+/* .section-title, .section-paragraph,  .steps{
+  opacity: 0;
+  transform: translateY(-1rem);
+  transition: opacity 0.5s, transform 0.5s;
+} */
+
+.fade {
   opacity: 0;
   transform: translateY(-1rem);
   transition: opacity 0.5s, transform 0.5s;
