@@ -279,7 +279,7 @@ input:checked + nav a{
   /* width: max-content; */
   /* max-width: 25ch; */
   font-size: xx-large;
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
 .section-paragraph {
@@ -294,7 +294,7 @@ input:checked + nav a{
   gap: 1rem;
   align-items: flex-end;
   justify-items: center;
-  margin: 5rem 0;
+  padding-bottom: 6rem;
   /* max-width: 100vw; */
 }
 
