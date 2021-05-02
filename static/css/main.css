@@ -167,6 +167,8 @@ input:checked + nav a{
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  outline: none;
+  border: none;
 }
 
 .toggle:hover {
