@@ -82,6 +82,7 @@ html, body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 30vh;
 }
 
 .scroll-indicator {
@@ -100,6 +101,7 @@ html, body {
   margin: 2rem 0;
   font-size: 2.5rem;
   text-transform: uppercase;
+  font-weight: 900;
 }
 
 .intro h2 {
@@ -113,7 +115,7 @@ html, body {
   align-items: center;
   justify-content: center;
   /* margin-bottom: 8rem; */
-  scroll-snap-type: mandatory;
+  /* scroll-snap-type: proximity; */
   width: 100%;
 }
 
