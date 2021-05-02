@@ -73,7 +73,7 @@ html, body {
 
 .intro h1 {
   width: max-content;
-  margin-bottom: 2rem;
+  margin: 2rem 0;
   font-size: 2.5rem;
 }
 
@@ -220,9 +220,9 @@ input:checked + nav a{
   width: 2rem;
 } */
 
-/* svg {
-  height: 2rem;
-} */
+svg {
+  height: 4rem;
+}
 
 .logo svg {
   width: 2rem;
@@ -286,8 +286,6 @@ input:checked + nav a{
 }
 
 .section-title {
-  /* width: max-content; */
-  /* max-width: 25ch; */
   font-size: xx-large;
   padding: 2rem 0;
 }
