@@ -65,6 +65,9 @@ html, body {
 
 .scroll-indicator {
   animation: upDown 5s infinite;
+  height: 2rem;
+  width: 2rem;
+  fill: var(--color-dark-blue)
 }
 
 .hidden {
