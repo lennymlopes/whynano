@@ -50,6 +50,7 @@ html, body {
   justify-content: center;
   /* margin-bottom: 8rem; */
   scroll-snap-type: mandatory;
+  width: 100%;
 }
 
 .main::after {
@@ -81,6 +82,7 @@ html, body {
 .main section {
   
   /* max-width: 75ch; */
+  width: 100%;
   padding: 2rem;
   min-height: 30vh;
   height: 100vh;
@@ -126,13 +128,19 @@ html, body {
   background-color: var(--color-transparent);
 } */
 
+
+
 .section-title {
-  width: 100%;
+  width: max-content;
   font-size: xx-large;
   padding: 1rem 0;
   opacity: 0;
   transform: translateY(-3rem);
   transition: opacity 0.5s, transform 0.5s;
+}
+
+.section-paragraph {
+  max-width: 50ch;
 }
 
 .active {
