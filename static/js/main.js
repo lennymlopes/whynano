@@ -1,5 +1,5 @@
 window.addEventListener('scroll', () => {
-  let sections = document.querySelectorAll('.section-title')
+  let sections = document.querySelectorAll('.section-title, .section-paragraph, .steps')
   let position = window.innerHeight
   for(section of sections) {
     
