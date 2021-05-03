@@ -76,7 +76,7 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   z-index: 5;
 }
 
@@ -85,11 +85,12 @@ html, body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 25vh;
+  /* margin-top: 25vh; */
+  margin-bottom: 10vh;
 }
 
 .scroll-indicator {
-  animation: upDown 5s infinite;
+  animation: upDown 3s infinite;
   height: 2rem;
   width: 2rem;
   fill: var(--color-fg)
@@ -415,9 +416,7 @@ a {
 
 @keyframes upDown {
   0% { transform: translateY(0); }
-  75% { transform: translateY(0); }
-  87.5% { transform: translateY(0.5rem); }
-  /* 90% { transform: translateY(0.5rem); } */
+  50% { transform: translateY(0); }
+  75% { transform: translateY(0.5rem); }
   100% { transform: translateY(0); }
 }
-
