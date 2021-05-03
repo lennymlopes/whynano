@@ -431,8 +431,9 @@ a {
 }
 
 @keyframes upDown {
-  0% { transform: translateY(0); }
+  /* 0% { transform: translateY(0); }
   50% { transform: translateY(0); }
   75% { transform: translateY(0.5rem); }
-  100% { transform: translateY(0); }
+  100% { transform: translateY(0); } */
+  50% { transform: translateY(1rem); }
 }
