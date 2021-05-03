@@ -284,7 +284,7 @@ svg {
 }
 
 #bitcoin-speed {
-  height: 13rem;
+  height: 7rem;
   background-color: var(--color-bitcoin-orange);
   position: relative;
 }
@@ -298,13 +298,29 @@ svg {
 }
 
 #bitcoin-fees {
-  height: 12rem;
+  height: 8rem;
   background-color: var(--color-bitcoin-orange);
   position: relative;
 }
 
+#nano-fees {
+  height: 0rem;
+  background-color: var(--color-soft-blue);
+  position: relative;
+}
+
+#nano-fees.active, #nano-energy.active, #nano-speed.active{
+  animation: barAnimation 3s forwards ease-in-out;
+}
+
+@keyframes barAnimation {
+  /* 0% { height: 0;} */
+  50% { height: 3rem;}
+  /* 100% { height: 0;} */
+}
+
 #bitcoin-energy {
-  height: 15rem;
+  height: 7rem;
   background-color: var(--color-bitcoin-orange);
   position: relative;
 }
