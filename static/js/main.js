@@ -11,3 +11,5 @@ window.addEventListener('scroll', () => {
   }
 })
 
+// add language support
+import('./lang.js').then( lang => lang.lang())
