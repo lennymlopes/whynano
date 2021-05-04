@@ -33,6 +33,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html, body {
@@ -96,6 +97,11 @@ em {
 
 .scroll-indicator {
   animation: upDown 3s infinite;
+  height: 2rem;
+  width: 2rem;
+}
+
+.scroll-indicator > svg {
   height: 2rem;
   width: 2rem;
   fill: var(--color-fg)
