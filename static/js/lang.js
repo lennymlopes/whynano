@@ -1,6 +1,6 @@
 export function lang() {
   
-  const langs = {
+  const languages = {
     "en" : {
       "hero-title": "Why Nano?",
       "hero-subtitle": "Instant. Feeless. Green."
@@ -13,17 +13,17 @@ export function lang() {
     }
   }
 
-  const userLang = navigator.language.split("-")[0]
-  if(userLang !== "en") {
-    setLang(userLang)
+  const userLanguage = navigator.language.split("-")[0]
+  if(userLanguage !== "en") {
+    setLanguage(userLanguage)
   }
 
-function setLang(userLang) {
-  if(userLang in langs){
-    let lang = langs[userLang]
-    for( let entry of Object.keys(lang)) {
+function setLanguage(userLanguage) {
+  if(userLanguage in languages){
+    let language = languages[userLanguage]
+    for( let entry of Object.keys(language)) {
       let element = document.getElementById(entry)
-      element.innerHTML = lang[entry]
+      element.innerHTML = language[entry]
     }
   }
 }
