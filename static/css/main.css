@@ -71,6 +71,11 @@ html, body {
   color: var(--color-bitcoin-orange)
 }
 
+em {
+  color: var(--color-soft-blue);
+  font-style: normal;
+}
+
 .intro {
   height: 100vh;
   display: flex;
