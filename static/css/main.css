@@ -356,10 +356,12 @@ svg {
   /* max-width: 75ch; */
   /* margin: 5rem 0; */
   /* padding: 1rem; */
+  /* padding-bottom: 0; */
 }
 
 .outro::after {
   display: none;
+  content: none;
 }
 
 .steps {
@@ -403,6 +405,16 @@ a {
 } */
 
 
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.4;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  font-size: larger;
+}
+
 
 
 .steps a {
@@ -412,11 +424,22 @@ a {
   padding-bottom: 0.8rem;
 }
 
-.outro .section-group > * {
-  padding-bottom: 1rem;
+.about.main {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
-
+.about.main > * {
+  width: 100vw;
+  overflow-wrap: break-word;
+  padding: 1rem 1rem 0 1rem;
+  text-align: center;
+  font-size: x-large;
+}
 
 .flip {
   animation: flip 2s forwards;
