@@ -36,3 +36,9 @@ function getCookies(name='') {
   }
   return cookies
 }
+
+const languagePicker = document.querySelector('#language-picker-select')
+languagePicker.addEventListener('change', () => {
+  let selectedLanguage = languagePicker.selectedOptions[0].getAttribute("lang")
+  setCookie("selectedLanguage", selectedLanguage)
+})
