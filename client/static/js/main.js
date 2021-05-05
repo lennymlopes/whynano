@@ -18,5 +18,21 @@ aboutButton.addEventListener('click', () => {
   aboutSection.classList.toggle('hidden')
 })
 
-// add language support
-// import('./lang.js').then( lang => lang.lang())
+
+function setCookie(name, value) {
+  const YEAR = 60*60*24*365
+  document.cookie = `${name}=${value}; max-age=${YEAR}; path=/`
+}
+
+function getCookies(name='') {
+  let cookies = {}
+  for(cookie of document.cookie.split(';')) {
+    let [key, value] = cookie.split('=')
+    cookies[key] = value
+  }
+  if(name) {
+    // return value if cookie exist, return undefined otherwise
+    return Object.keys(cookies).includes(name) ? cookies[name] : undefined
+  }
+  return cookies
+}
