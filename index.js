@@ -20,7 +20,13 @@ app.get('/', (req, res) => {
   const userLanguages = req.acceptsLanguages()
   let cookies = parseCookies(req.headers.cookie)
   let selectedLanguage = Object.keys(cookies).includes('selectedLanguage') ? cookies['selectedLanguage'] : 'en'
-  res.render("index", languages[selectedLanguage])
+  let availableLanguages = []
+  for(key of Object.keys(languages)) {
+
+    availableLanguages.push({iso: languages[key].iso, value: languages[key].value, display_name: languages[key].display_name })
+  }
+  console.log(availableLanguages)
+  res.render("index", {...languages[selectedLanguage], availableLanguages})
 })
 
 app.listen(PORT, () => {

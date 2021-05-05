@@ -1,5 +1,8 @@
 {
   "en" : {
+    "iso": "en",
+    "value": "english",
+    "display_name": "English",
     "hero_title": "Why Nano?",
     "hero_subtitle": "Instant. Feeless. Green.",
     "what_title": "What is Nano?",
@@ -39,6 +42,9 @@
 
   },
   "de" : {
+    "iso": "de",
+    "value": "deutsch",
+    "display_name": "Deutsch",
     "hero_title": "Wieso Nano?",
     "hero_subtitle": "Schnell. Gebührenlos. Grün",
     "what_title": "Was ist Nano?",
