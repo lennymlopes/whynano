@@ -10,7 +10,8 @@ export function lang() {
       "hero-subtitle": "Schnell. Gebührenlos. Grün",
       "s1-title": "Was ist Nano?",
       "s1-p1": "Nano ist <em>digitales Geld.</em>",
-      "s1-p2": "Nano ist schnell, gebührenlos und umweltfreundlich"
+      "s1-p2": "Nano ist <em>schnell, gebührenlos und umweltfreundlich.</em>",
+      "s1-p3": "Nano ermöglicht ein intuitives Erlebnis, das sich anfühlt, wie es sich für eine digitale Währung gehört - <em>simpel, schnell und <i>einfach richtig.</i></em>"
     }
   }
 
