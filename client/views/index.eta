@@ -50,8 +50,8 @@
               </g>
           </g>
       </svg>
-        <h1 id="hero-title">Why Nano?<%= it.heroTitle %></h1>
-        <h2 id="hero-subtitle">Instant. Feeless. Green.</h2>
+        <h1 id="heroTitle"><%= it.heroTitle %></h1>
+        <h2 id="heroSubtitle"><%= it.heroSubtitle %></h2>
       </div>
       <a href="#main" class="scroll-indicator">
         <svg title="scroll indicator" xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><switch><foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1"></foreignObject><g i:extraneous="self"><path d="M2.5,31.3c0-2.6,1-5.1,2.9-7.1c3.9-3.9,10.3-3.9,14.2,0L50,54.5l30.4-30.4c3.9-3.9,10.3-3.9,14.2,0    c3.9,3.9,3.9,10.3,0,14.2L57.1,75.8c-1.9,1.9-4.4,2.9-7.1,2.9s-5.2-1.1-7.1-2.9L5.4,38.4C3.5,36.4,2.5,33.8,2.5,31.3z"></path></g></switch></svg>
@@ -60,7 +60,7 @@
     <div class="main" id="main">
       <section class="solid">
         <div class="section-group">
-          <h3 class="section-title fade" id="what-title">What is Nano?</h3>
+          <h3 class="section-title fade" id="what-title"><%= it.whatTitle %></h3>
         <p class="section-paragraph fade" id="what-p1">Nano is <em>digital money.</em></p>
         <p class="section-paragraph fade" id="what-p2">
           It is <em>instant, feeless and eco friendly.</em>
@@ -132,7 +132,7 @@
             <div class="grid-right bar fade" id="nano-energy"></div>
             <p class="grid-left fade">Bitcoin</p>
             <p class="grid-right fade">Nano</p>
-            <div class="grid-left fade">651'080 Wh</div>
+            <div class="grid-left fade">651 080 Wh</div>
             <div class="grid-right fade">0.112 Wh</div>
             <p class="comparison-paragraph fade" id="compare-g3-p">
               The Bitcoin network uses as much electricity as the whole of Argentina.
@@ -155,7 +155,7 @@
             <span id="community-s2">or the</span> <a href="https://forum.nano.org/" target="_blank" rel="noopener" id="community-forum">official forum!</a>
           </p>  
           <p class="section-paragraph fade" id="community-p2">
-            You'll be welcomed with open arms!
+            Youll be welcomed with open arms!
           </p>
         </div>
       </section>
