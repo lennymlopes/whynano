@@ -112,16 +112,18 @@ em {
 }
 
 .intro h1 {
-  width: max-content;
+  width: 100%;
   margin: 2rem 0;
   font-size: 2.5rem;
   text-transform: uppercase;
   font-weight: 900;
+  text-align: center;
 }
 
 .intro h2 {
   color: #4a90e2;
-  width: max-content;
+  width: 100%;
+  text-align: center;
 }
 
 .main {
