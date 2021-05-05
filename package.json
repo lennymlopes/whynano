@@ -25,6 +25,7 @@
   "homepage": "https://github.com/lennymlopes/whynano#readme",
   "dependencies": {
     "compression": "^1.7.4",
+    "eta": "^1.12.1",
     "express": "^4.17.1"
   }
 }
