@@ -39,7 +39,9 @@ export function lang() {
       "next-s4": "um mehr gratis Nano auf der ganzen Welt zu finden. Erfahre mehr bei der",
       "next-nano-foundation": "Nano-Stiftung.",
       "next-p1": "Beginnen Sie Ihre Reise in die grenzenlose Welt des dezentralisierten, digitalen Geldes.",
-      "about-title": "Über diese Seite"
+      "about-summary": "Über diese Seite",
+      "about-s1": "Erstellt von",
+      "about-p1": "Unterstütze dieses und ähnliche Projekte:"
     }
   }
 
