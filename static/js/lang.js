@@ -16,7 +16,7 @@ export function lang() {
       "benefit-p1": "Als Nutzer kannst du <em>Freunden und Familie auf der ganzen Welt Geld senden,</em> augenblicklich, ohne dass jemand anderes beteiligt ist oder einen Anteil nimmt! Oder unterstütze einen guten Zweck direkt, überall auf der Welt und ohne Zwischenhändler!",
       "benefit-p2": "Als Geschäft können Sie Ihren Kunden ein nahtloses, einfaches und schnelles Zahlungserlebnis bieten und gleichzeitig <em>Kartengebühren sparen und Infrastrukturkosten senken!</em>",
       "amount-title": "Wie viel Nano gibt es?",
-      "amount-p1": "Nur <em>133 Millionen Nano</em> werden jemals existieren, und alle sind bereits im Umlauf. Das bedeutet <em>keine monetäre Inflation. Niemals.",
+      "amount-p1": "Nur <em>133 Millionen Nano</em> werden jemals existieren, und alle sind bereits im Umlauf. Das bedeutet <em>keine monetäre Inflation. Niemals.</em>",
       "compare-title": "Wie sieht es im Vergleich aus?",
       "compare-g1-t": "Bitcoin ist <span class='bitcoin-orange'>langsam.</span> Nano ist <em>schnell.</em>",
       "compare-g1-p": "Die durchschnittliche Bitcoin-Transaktion benötigt 30 Minuten zur Bestätigung, Nano-Transaktionen werden im Durchschnitt in weniger als einer Sekunde bestätigt.",
@@ -39,7 +39,7 @@ export function lang() {
       "next-s4": "um mehr gratis Nano auf der ganzen Welt zu finden. Erfahre mehr bei der",
       "next-nano-foundation": "Nano-Stiftung.",
       "next-p1": "Beginnen Sie Ihre Reise in die grenzenlose Welt des dezentralisierten, digitalen Geldes.",
-      "about-summary": "Über diese Seite",
+      "about-button": "Über diese Seite",
       "about-s1": "Erstellt von",
       "about-p1": "Unterstütze dieses und ähnliche Projekte:"
     }
