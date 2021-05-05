@@ -19,4 +19,4 @@ aboutButton.addEventListener('click', () => {
 })
 
 // add language support
-import('./lang.js').then( lang => lang.lang())
+// import('./lang.js').then( lang => lang.lang())
