@@ -34,6 +34,9 @@ app.listen(PORT, () => {
 })
 
 function parseCookies(raw) {
+  if(!raw) {
+    return []
+  }
   let cookies = {}
   for(cookie of raw.split('; ')) {
     let [key, value] = cookie.split('=')
