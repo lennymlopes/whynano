@@ -421,6 +421,7 @@ footer {
   padding: 1rem;
   padding-bottom: 2rem;
   font-size: larger;
+  width: 100vw;
 }
 
 
@@ -450,7 +451,7 @@ footer {
 }
 
 details {
-  width: 100vw;
+  width: 100%;
   text-align: center;
 }
 
@@ -462,9 +463,10 @@ details > summary::marker, summary::-webkit-details-marker {
 }
 
 details > p {
-  width: 100vw;
+  width: 100%;
   overflow-wrap: break-word;
-  padding: 1rem 1rem 0 1rem;
+  /* padding: 1rem 1rem 0 1rem; */
+  padding-top: 1rem;
   text-align: center;
   font-size: medium;
   color: var(--color-fg);
