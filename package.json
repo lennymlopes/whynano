@@ -1,0 +1,26 @@
+{
+  "name": "why-nano",
+  "version": "1.0.0",
+  "description": "simple nano introduction site",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lennymlopes/whynano.git"
+  },
+  "keywords": [
+    "nano",
+    "crypto",
+    "currency",
+    "why",
+    "information"
+  ],
+  "author": "lennymlopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lennymlopes/whynano/issues"
+  },
+  "homepage": "https://github.com/lennymlopes/whynano#readme"
+}
