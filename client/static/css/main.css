@@ -478,11 +478,17 @@ footer {
 #about-button {
   background-color: transparent;
   border: none;
-  color: var(--color-soft-blue);
+  color: var(--color-fg);
   font-size: large;
   text-decoration: underline;
 }
 
+.language-picker {
+  position: fixed;
+  left: 2rem;
+  bottom: 2rem;
+  z-index: 999;
+}
 
 
 @keyframes upDown {
