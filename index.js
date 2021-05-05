@@ -18,9 +18,20 @@ const PORT = process.env.PORT || 5000
 
 app.get('/', (req, res) => {
   const userLanguages = req.acceptsLanguages()
-  res.render("index", languages["de"])
+  let cookies = parseCookies(req.headers.cookie)
+  let selectedLanguage = Object.keys(cookies).includes('selectedLanguage') ? cookies['selectedLanguage'] : 'en'
+  res.render("index", languages[selectedLanguage])
 })
 
 app.listen(PORT, () => {
   console.log(`listening on http://localhost:${PORT}`)
 })
+
+function parseCookies(raw) {
+  let cookies = {}
+  for(cookie of raw.split('; ')) {
+    let [key, value] = cookie.split('=')
+    cookies[key] = value
+  }
+  return cookies
+}
