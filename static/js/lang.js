@@ -8,8 +8,9 @@ export function lang() {
     "de" : {
       "hero-title": "Wieso Nano?",
       "hero-subtitle": "Schnell. Gebührenlos. Grün",
-      "future-title": "Die Zukunft täglicher Transaktionen",
-      "future-p1": "Nano is <em>dezentralisiertes, umweltfreundliches und sicheres digitales Geld</em> mit dem Fokus Ineffizienzen in existierenden Finanzsystemen zu eliminieren."
+      "s1-title": "Was ist Nano?",
+      "s1-p1": "Nano ist <em>digitales Geld.</em>",
+      "s1-p2": "Nano ist schnell, gebührenlos und umweltfreundlich"
     }
   }
 
