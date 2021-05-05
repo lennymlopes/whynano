@@ -447,22 +447,35 @@ footer {
   font-size: x-large;
 }
 
-.flip {
-  animation: flip 2s forwards;
+details {
+  width: 100vw;
+  text-align: center;
 }
 
-@keyframes flip {
-  from {
-    -webkit-transform: perspective(10rem) rotateX(-90deg);
-    transform: perspective(10rem) rotateX(-90deg);
-    transform-origin: top;
-  }
-  to {
-    -webkit-transform: perspective(10rem) rotateX(0deg);
-    transform: perspective(10rem) rotateX(0deg);
-    transform-origin: top;
-  }
+details > summary {
+  list-style: none;
 }
+details > summary::marker, summary::-webkit-details-marker {
+  display: none;
+}
+
+details > p {
+  width: 100vw;
+  overflow-wrap: break-word;
+  padding: 1rem 1rem 0 1rem;
+  text-align: center;
+  font-size: medium;
+}
+
+details[open] summary ~ * {
+  animation: sweep 1s ease-in-out;
+}
+@keyframes sweep {
+  0%    {opacity: 0; transform: translateY(-1rem)}
+  100%  {opacity: 1; transform: translateY(0)}
+}
+
+
 
 @keyframes upDown {
   /* 0% { transform: translateY(0); }
