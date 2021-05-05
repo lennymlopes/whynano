@@ -1,11 +1,11 @@
 {
   "en" : {
-    "hero-title": "Why Nano?",
-    "hero-subtitle": "Instant. Feeless. Green."
+    "heroTitle": "Why Nano?",
+    "heroSubtitle": "Instant. Feeless. Green."
   },
   "de" : {
-    "hero-title": "Wieso Nano?",
-    "hero-subtitle": "Schnell. Gebührenlos. Grün",
+    "heroTitle": "Wieso Nano?",
+    "heroSubtitle": "Schnell. Gebührenlos. Grün",
     "what-title": "Was ist Nano?",
     "what-p1": "Nano ist <em>digitales Geld.</em>",
     "what-p2": "Nano ist <em>schnell, gebührenlos und umweltfreundlich.</em>",

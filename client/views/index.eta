@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nano is a instant, feeless and eco-friendly digital currency for everyday transactions.">
+  <title>Why Nano?</title>
+  <link rel="stylesheet" href="static/css/main.css">
+  <script defer src="static/js/main.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta property="og:title" content="Why Nano?">
+  <meta property="og:description" content="Nano is a instant, feeless and eco-friendly digital currency for everyday transactions.">
+  <meta property="og:image" content="https://whynano.cc/static/img/preview.png">
+  <meta property="og:url" content="https://whynano.cc">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap">
+  <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap">
+</noscript>
+</head>
+<body>
+  <div class="container">
+    <video autoplay muted loop playsinline buffer class="bg-video"  poster="static/img/04-360p.webp">
+      <!-- <source src="static/vid/04.webm" type="video/webm" /> -->
+      <source src="static/vid/04-360p.mp4" type="video/mp4" />
+    </video>
+    <div class="intro">
+      <div class="welcome">
+        <svg width="100%" height="100%" viewBox="0 0 568 568" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+          <g id="nano-circle" transform="matrix(1,0,0,1,-1961.3,-106.25)">
+              <rect x="1961.3" y="106.25" width="567.6" height="567.6" style="fill:none;"/>
+              <clipPath id="_clip1">
+                  <rect x="1961.3" y="106.25" width="567.6" height="567.6"/>
+              </clipPath>
+              <g clip-path="url(#_clip1)">
+                  <g transform="matrix(1,0,0,1,1360.3,0.3)">
+                      <path d="M885.1,106.2C728.4,106.2 601.3,233.3 601.3,390C601.3,546.7 728.4,673.8 885.1,673.8C1041.8,673.8 1168.9,546.7 1168.9,390C1168.9,233.3 1041.8,106.2 885.1,106.2Z" style="fill:rgb(74,144,226);fill-rule:nonzero;"/>
+                  </g>
+                  <g transform="matrix(1,0,0,1,1360.3,0.3)">
+                      <path d="M907.5,390C907.5,402.4 897.5,412.4 885.1,412.4C872.7,412.4 862.7,402.4 862.7,390C862.7,373.2 857.1,367.6 840.3,367.6C823.5,367.6 818,373.3 818,390C818,402.4 808,412.4 795.6,412.4C783.2,412.4 773.2,402.4 773.2,390C773.2,377.6 783.2,367.6 795.6,367.6C812.4,367.6 818,362 818,345.2C818,332.8 828,322.8 840.4,322.8C852.8,322.8 862.8,332.8 862.8,345.2C862.8,362 868.4,367.6 885.2,367.6C897.4,367.7 907.5,377.7 907.5,390Z" style="fill:white;fill-rule:nonzero;"/>
+                      <circle cx="750.9" cy="434.8" r="22.4" style="fill:white;"/>
+                      <path d="M1041.6,345.3C1041.6,357.7 1031.6,367.7 1019.2,367.7C1002.4,367.7 996.8,373.3 996.8,390.1C996.8,402.5 986.8,412.5 974.4,412.5C957.6,412.5 952,418.1 952,434.9C952,447.3 942,457.3 929.6,457.3C917.2,457.3 907.2,447.3 907.2,434.9C907.2,422.5 917.2,412.5 929.6,412.5C946.4,412.5 952,406.9 952,390.1C952,377.7 962,367.7 974.4,367.7C991.2,367.7 996.8,362.1 996.8,345.3C996.8,332.9 1006.8,322.9 1019.2,322.9C1031.6,322.9 1041.6,333 1041.6,345.3Z" style="fill:white;fill-rule:nonzero;"/>
+                  </g>
+              </g>
+          </g>
+      </svg>
+        <h1 id="hero-title">Why Nano?<%= it.heroTitle %></h1>
+        <h2 id="hero-subtitle">Instant. Feeless. Green.</h2>
+      </div>
+      <a href="#main" class="scroll-indicator">
+        <svg title="scroll indicator" xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><switch><foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1"></foreignObject><g i:extraneous="self"><path d="M2.5,31.3c0-2.6,1-5.1,2.9-7.1c3.9-3.9,10.3-3.9,14.2,0L50,54.5l30.4-30.4c3.9-3.9,10.3-3.9,14.2,0    c3.9,3.9,3.9,10.3,0,14.2L57.1,75.8c-1.9,1.9-4.4,2.9-7.1,2.9s-5.2-1.1-7.1-2.9L5.4,38.4C3.5,36.4,2.5,33.8,2.5,31.3z"></path></g></switch></svg>
+      </a>
+    </div>
+    <div class="main" id="main">
+      <section class="solid">
+        <div class="section-group">
+          <h3 class="section-title fade" id="what-title">What is Nano?</h3>
+        <p class="section-paragraph fade" id="what-p1">Nano is <em>digital money.</em></p>
+        <p class="section-paragraph fade" id="what-p2">
+          It is <em>instant, feeless and eco friendly.</em>
+          It is also decentralized, secure, efficient and accessible.
+        </p>
+        <p class="section-paragraph fade" id="what-p3">
+          Nano provides an intuitive experience that feels like digital currency should - <em>simple, quick and <i>just right</i>.</em>
+        </p>
+        </div>
+      </section>
+      <section class="transparent">
+        <div class="section-group">
+          <h3 class="section-title fade" id="benefit-title">How can it help me?</h3>
+          <p class="section-paragraph fade" id="benefit-p1">
+            As a user, you can <em>send money to friends and family all over the world</em>, instantly, without anyone else involved or taking a cut!
+            Or maybe support a cause you like directly, no matter how far away!
+          </p>  
+          <p class="section-paragraph fade" id="benefit-p2">
+            As a business, you can offer your customers a seamless, simple and quick payment experience while <em>saving card fees and lowering infrastructure costs!</em>
+          </p>
+        </div>
+      </section>
+      <section class="solid">
+        <div class="section-group">
+          <h3 class="section-title fade" id="amount-title">How much is there?</h3>
+          <p class="section-paragraph fade" id="amount-p1">
+            Only <em>133 Million Nano</em>  will ever exist, and all of them are already in circulation. This means <em>no monetary inflation, ever.</em>
+          </p>  
+        </div>
+      </section>
+      <section class="transparent">
+        <div class="section-group">
+          <h3 class="section-title fade" id="compare-title">How does it compare?</h3>
+          <div class="comparison-grid">
+            <h4 class="comparison-title fade" id="compare-g1-t">Bitcoin is <span class='bitcoin-orange'>slow.</span> Nano is <em>fast.</em></h4>
+            
+            <div class="grid-left bar fade" id="bitcoin-speed"></div>
+            <div class="grid-right bar fade" id="nano-speed"></div>
+            <p class="grid-left fade">Bitcoin</p>
+            <p class="grid-right fade">Nano</p>
+            <div class="grid-left fade">30 min</div>
+            <div class="grid-right fade">0.2s</div>
+            
+            <p class="comparison-paragraph fade" id="compare-g1-p">
+              The average Bitcoin transaction takes 30 min to confirm, Nano transactions are confirmed in less than one second on average.
+            </p>
+          </div>
+          <div class="comparison-grid">
+            <h4 class="comparison-title fade" id="compare-g2-t">
+              Bitcoin is <span class="bitcoin-orange">expensive.</span>
+              Nano is <em>free.</em>
+            </h4>
+            <div class="grid-left bar fade" id="bitcoin-fees"></div>
+            <div class="grid-right bar fade" id="nano-fees"></div>
+            <p class="grid-left fade">Bitcoin</p>
+            <p class="grid-right fade">Nano</p>
+            <div class="grid-left fade">$22</div>
+            <div class="grid-right fade">$0</div>
+            <p class="comparison-paragraph fade" id="compare-g2-p">
+              Bitcoin transactions cost $22 on average, Nano transactions are feeless.
+            </p>
+          </div>
+          <div class="comparison-grid">
+            <h4 class="comparison-title fade" id="compare-g3-t">
+              Bitcoin is <span class="bitcoin-orange">terrible for the environment.</span>
+              Nano is <em>eco-friendly.</em>
+            </h4>
+            <div class="grid-left bar fade" id="bitcoin-energy"></div>
+            <div class="grid-right bar fade" id="nano-energy"></div>
+            <p class="grid-left fade">Bitcoin</p>
+            <p class="grid-right fade">Nano</p>
+            <div class="grid-left fade">651'080 Wh</div>
+            <div class="grid-right fade">0.112 Wh</div>
+            <p class="comparison-paragraph fade" id="compare-g3-p">
+              The Bitcoin network uses as much electricity as the whole of Argentina.
+              Nano can run its entire network on a single wind turbine.
+            </p>
+          </div>
+        </div>
+       </section>
+      <section class="solid">
+        <div class="section-group">
+          <h3 class="section-title fade" id="community-title">Is there a community?</h3>
+          <p class="section-paragraph fade" id="community-p1">
+            Yes, and it is one of the most active, friendly and helpful communities of any cryptocurrency!
+          </p>
+          <p class="section-paragraph fade" >
+            <span id="community-s1">Doesn’t matter if you are a developer, enthusiast, business owner or just have a few questions!
+            Come and say hello on </span><a href="https://www.reddit.com/r/nanocurrency/" target="_blank" rel="noopener">Reddit</a>,
+            <a href="https://twitter.com/nano" target="_blank" rel="noopener">Twitter</a>,
+            <a href="https://t.me/nanocurrency" target="_blank" rel="noopener">Telegram</a>
+            <span id="community-s2">or the</span> <a href="https://forum.nano.org/" target="_blank" rel="noopener" id="community-forum">official forum!</a>
+          </p>  
+          <p class="section-paragraph fade" id="community-p2">
+            You'll be welcomed with open arms!
+          </p>
+        </div>
+      </section>
+      <section class="transparent outro">
+        <div class="section-group">
+          <h2 class="section-title fade" id="next-title">What now?</h2>
+          <p class="section-paragraph fade">
+            <span id="next-s1">Try it out! Get the</span>
+            <a id="next-natrium" href="https://natrium.io" target="_blank" rel="noopener" title="Awesome mobile wallet">Natrium wallet</a>
+            <span id="next-s2">, and grab some</span>
+            <a id="next-faucet" href="https://www.trynano.io/" target="_blank" rel="noopener" title="Get free Nano">free Nano.</a>
+            <span id="next-s3">Install</span>
+            <a id="wenano" href="https://www.wenano.net" target="_blank" rel="noopener" title="PokemonGo for Cryptocurrency">WeNano</a>
+            <span id="next-s4"> to find more free Nano all around the world. Learn more at the</span>
+            <a id="next-nano-foundation" href="https://www.nano.org" target="_blank" rel="noopener" title="Website of the Nano Foundation">Nano Foundation.</a>
+          </p>
+          <p class="section-paragraph fade" id="next-p1">
+            Begin your journey into borderless, decentralized digital cash.
+          </p>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div id="about-section">
+        <p><span id="about-s1">page by</span> <a href="https://lenny.digital" target="_blank" rel="noopener">lenny.digital</a></p>
+        <p id="about-p1">support projects like this:</p>
+        <p>nano_1ybhgzr3xr1qce4ccg6jou7jrtgfzopuab3aw6tfbqgt6hinhj9hx8w8tftk</p>
+      </div>
+      <button id="about-button">about this page</button>
+    </footer>
+  </div>
+</body>
+</html>
