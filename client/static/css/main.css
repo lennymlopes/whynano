@@ -500,7 +500,7 @@ footer {
   width: 1rem;
   height: 1rem;
   fill: var(--color-fg);
-  opacity: 0.4;
+  opacity: 0.6;
 }
 
 .language-picker__form > label {
@@ -538,7 +538,7 @@ select {
   cursor: pointer;
   border: 0.15rem solid var(--color-fg);
   /* box-shadow: 1px 1px 3px var(--color-transparent); */
-  opacity: 0.4;
+  opacity: 0.6;
 }
 
 select::-ms-expand {
