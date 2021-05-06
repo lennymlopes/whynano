@@ -495,6 +495,17 @@ select {
   -webkit-appearance: none;
   appearance: none;
   border: none;
+  width: 100%;
+  /* height: 2rem; */
+  -moz-padding-start: calc(10px - 3px);
+  /* padding-left: 10px; */
+  padding: 0.5rem;
+  /* background: url(fff-0-2.png) repeat; */
+  background-color: var(--color-transparent);
+  color: var(--color-fg);
+  font-size: medium;
+  border-radius: 0.2rem;
+  outline: none;
 }
 
 select::-ms-expand {
