@@ -17,12 +17,14 @@ app.set("views", "./client/views")
 const PORT = process.env.PORT || 5000
 
 let languages = {}
+let availableLanguages = []
 fs.readdir('./languages', (err, filenames) => {
   console.log(filenames)
   for(file of filenames) {
     fs.readFile('./languages/' + file, 'utf-8', (err, content) => {
       content = JSON.parse(content)
       languages[content.iso] = content
+      availableLanguages.push({iso: content.iso, value: content.value, display_name: content.display_name })
     })
   }
 })
@@ -31,12 +33,12 @@ app.get('/', (req, res) => {
   const userLanguages = req.acceptsLanguages()
   let cookies = parseCookies(req.headers.cookie)
   let selectedLanguage = Object.keys(cookies).includes('selectedLanguage') ? cookies['selectedLanguage'] : 'en'
-  let availableLanguages = []
-  for(key of Object.keys(languages)) {
+  // let availableLanguages = []
+  // for(key of Object.keys(languages)) {
 
-    availableLanguages.push({iso: languages[key].iso, value: languages[key].value, display_name: languages[key].display_name })
-  }
-  console.log(availableLanguages)
+  //   availableLanguages.push({iso: languages[key].iso, value: languages[key].value, display_name: languages[key].display_name })
+  // }
+  // console.log(availableLanguages)
   res.render("index", {...languages[selectedLanguage], availableLanguages})
 })
 
