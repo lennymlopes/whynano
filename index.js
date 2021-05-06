@@ -2,7 +2,7 @@ const express = require('express')
 const compression = require('compression')
 const path = require('path')
 const eta = require('eta')
-const languages = require('./languages.json')
+const fs = require('fs')
 
 const app = express()
 app.use(compression())
@@ -15,6 +15,17 @@ app.set("view engine", "eta")
 app.set("views", "./client/views")
 
 const PORT = process.env.PORT || 5000
+
+let languages = {}
+fs.readdir('./languages', (err, filenames) => {
+  console.log(filenames)
+  for(file of filenames) {
+    fs.readFile('./languages/' + file, 'utf-8', (err, content) => {
+      content = JSON.parse(content)
+      languages[content.iso] = content
+    })
+  }
+})
 
 app.get('/', (req, res) => {
   const userLanguages = req.acceptsLanguages()
