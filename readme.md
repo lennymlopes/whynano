@@ -8,7 +8,7 @@
 
 ## Translations
 
-Right now, the page is available in English and German. I'm hoping for people to help translate the page into more languages. To add a language, copy the [english template](languages/en.json), replace the text with the translation and rename the file to "iso-code".json.
+Right now, the page is available in English and German. I'm hoping for people to help translate the page into more languages. To add a language, copy the [english template](languages/en.json), replace the text with the translation and rename the file to "iso-code".json (e.g. de.json for german).
 
 
 
