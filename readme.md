@@ -2,7 +2,7 @@
 
 ## Introduction
 
-[whynano.cc](https://whynano.cc) is a website with the purpose of giving a simple and quick introduction and overview of the [Nano](www.nano.org) cryptocurrency. Send it to your friends and people you would like to introduce to Nano.
+[whynano.cc](whynano.cc) is a website with the purpose of giving a simple and quick introduction and overview of the [Nano](www.nano.org) cryptocurrency. Send it to your friends and people you would like to introduce to Nano.
 
 
 
