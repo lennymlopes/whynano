@@ -506,10 +506,19 @@ select {
   font-size: medium;
   border-radius: 0.2rem;
   outline: none;
+  cursor: pointer;
 }
 
 select::-ms-expand {
   display: none;
+}
+
+select option {
+  color: #666;
+}
+
+select:focus::-ms-value {
+  background-color: transparent;
 }
 
 
