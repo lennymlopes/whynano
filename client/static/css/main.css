@@ -484,9 +484,9 @@ footer {
 }
 
 .language-picker {
-  position: fixed;
-  left: 2rem;
-  bottom: 2rem;
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
   z-index: 999;
 }
 
