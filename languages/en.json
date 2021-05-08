@@ -16,7 +16,7 @@
   "compare_title": "How does it compare?",
   "compare_g1_t": "Bitcoin is <span class='bitcoin-orange'>slow.</span> Nano is <em>fast.</em>",
   "compare_g1_p": "The average Bitcoin transaction takes 30 min to confirm, Nano transactions are confirmed in less than one second on average.",
-  "compare_g2_t": "Bitcoin is <span class='bitcoin-orange'>expensive.</span>Nano is <em>free.</em></em>",
+  "compare_g2_t": "Bitcoin is <span class='bitcoin-orange'>expensive.</span> Nano is <em>free.</em></em>",
   "compare_g2_p": "Bitcoin transactions cost $22 on average, Nano transactions are feeless.",
   "compare_g3_t": "Bitcoin is <span class='bitcoin-orange'>terrible for the environment.</span> Nano is <em>eco-friendly.</em>",
   "compare_g3_p": "The Bitcoin network uses as much electricity as the whole of Argentina. Nano can run its entire network on a single wind turbine.",
