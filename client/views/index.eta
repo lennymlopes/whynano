@@ -112,6 +112,16 @@
             <p class="grid-right fade">Nano</p>
             <p class="comparison-paragraph fade"><%~ it.compare_g3_p %></p>
           </div>
+          <div class="comparison-grid">
+            <h4 class="comparison-title fade"><%~ it.compare_g4_t %></h4>
+            <div class="grid-left bar fade" id="bitcoin-tx"></div>
+            <div class="grid-right bar fade" id="nano-tx"></div>
+            <div class="grid-left fade">1 txs</div>
+            <div class="grid-right fade">10'200'000 txs</div>
+            <p class="grid-left fade">Bitcoin</p>
+            <p class="grid-right fade">Nano</p>
+            <p class="comparison-paragraph fade"><%~ it.compare_g4_p %></p>
+          </div>
         </div>
        </section>
       <section class="solid">

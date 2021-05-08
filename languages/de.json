@@ -20,6 +20,8 @@
   "compare_g2_p": "Bitcoin-Transaktionen kosten im Durchschnitt $22, Nano-Transaktionen sind gebührenfrei.",
   "compare_g3_t": "Bitcoin ist <span class='bitcoin-orange'>schrecklich für die Umwelt.</span> Nano ist <em>umweltfreundlich.</em>",
   "compare_g3_p": "Das Bitcoin-Netzwerk verbraucht so viel Strom wie ganz Argentinien. Nano kann sein gesamtes Netzwerk mit einer einzigen Windturbine betreiben.",
+  "compare_g4_t": "Bitcoin <span class='bitcoin-orange'>verschwendet unglaublich viel Energie.</span> Nano verbraucht <em>sehr wenig.</em>",
+  "compare_g4_p": "Mit der verbrauchten Energie einer einzigen Bitcoin-Transaktion können mehr als 10 Millionen Nano-Transaktionen getätigt werden.",
   "community_title": "Gibt es eine Community?",
   "community_p1": "Ja, und es ist eine der aktivsten, freundlichsten und hilfreichsten Communities aller Kryptowährungen!",
   "community_s1": "Egal ob du Entwickler, Enthusiast, Unternehmer bist oder einfach nur ein paar Fragen hast! Komm und sag Hallo auf ",

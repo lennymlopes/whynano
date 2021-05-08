@@ -322,6 +322,18 @@ svg {
   position: relative;
 }
 
+#bitcoin-tx {
+  height: 1px;
+  background-color: var(--color-bitcoin-orange);
+  position: relative;
+}
+
+#nano-tx {
+  height: 9rem;
+  background-color: var(--color-soft-blue);
+  position: relative;
+}
+
 #nano-fees.active, #nano-energy.active, #nano-speed.active{
   animation: barAnimation 3s forwards ease-in-out;
 }

@@ -20,6 +20,8 @@
   "compare_g2_p": "Bitcoin transactions cost $22 on average, Nano transactions are feeless.",
   "compare_g3_t": "Bitcoin is <span class='bitcoin-orange'>terrible for the environment.</span> Nano is <em>eco-friendly.</em>",
   "compare_g3_p": "The Bitcoin network uses as much electricity as the whole of Argentina. Nano can run its entire network on a single wind turbine.",
+  "compare_g4_t": "Bitcoin <span class='bitcoin-orange'>wastes too much energy.</span> Nano <em>uses very little.</em>",
+  "compare_g4_p": "With the energy used for a single Bitcoin transaction, you can make more than 10 Million Nano transactions.",
   "community_title": "Is there a community?",
   "community_p1": "Yes, and it is one of the most active, friendly and helpful communities of any cryptocurrency!",
   "community_s1": "Doesn’t matter if you are a developer, enthusiast, business owner or just have a few questions! Come and say hello on ",
