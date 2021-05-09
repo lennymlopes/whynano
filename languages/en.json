@@ -1,7 +1,9 @@
 {
-  "iso": "en",
-  "value": "english",
-  "display_name": "English",
+  "settings": {
+    "iso": "en",
+    "value": "english",
+    "display_name": "English"
+  },
   "hero_title": "Why Nano?",
   "hero_subtitle": "Instant. Feeless. Green.",
   "what_title": "What is Nano?",

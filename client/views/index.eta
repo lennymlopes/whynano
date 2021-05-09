@@ -25,6 +25,12 @@
 </noscript>
 </head>
 <body>
+  <% if(it.settings.text_align) { %>
+    <style>
+      * {
+        text-align: <%~ it.settings.text_align %>
+      <% } %>
+    </style>
   <div class="container">
     <video autoplay muted loop playsinline buffer class="bg-video"  poster="static/img/04-360p.webp">
       <!-- <source src="static/vid/04.webm" type="video/webm" /> -->

@@ -1,7 +1,9 @@
 {
-  "iso": "de",
-  "value": "deutsch",
-  "display_name": "Deutsch",
+  "settings": {
+    "iso": "de",
+    "value": "deutsch",
+    "display_name": "Deutsch"
+  },
   "hero_title": "Wieso Nano?",
   "hero_subtitle": "Schnell. Gebührenlos. Umweltfreundlich.",
   "what_title": "Was ist Nano?",

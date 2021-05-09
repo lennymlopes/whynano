@@ -1,7 +1,10 @@
 {
-  "iso": "he",
-  "value": "hebrew",
-  "display_name": "עברית",
+  "settings": {
+    "iso": "he",
+    "value": "hebrew",
+    "display_name": "עברית",
+    "text_align": "right"
+  },
   "hero_title": "למה נאנו?",
   "hero_subtitle": "מיידי. נטול עמלות. ירוק.",
   "what_title": "מה זה נאנו?",

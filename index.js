@@ -23,8 +23,9 @@ fs.readdir('./languages', (err, filenames) => {
   for (file of filenames) {
     fs.readFile('./languages/' + file, 'utf-8', (err, content) => {
       content = JSON.parse(content)
-      languages[content.iso] = content
-      availableLanguages.push({ iso: content.iso, value: content.value, display_name: content.display_name })
+      languages[content.settings.iso] = content
+      availableLanguages.push({ iso: content.settings.iso, value: content.settings.value, display_name: content.settings.display_name })
+      console.log(availableLanguages)
     })
   }
 })
@@ -33,6 +34,7 @@ app.get('/', (req, res) => {
   const userLanguages = req.acceptsLanguages()
   const cookies = parseCookies(req.headers.cookie)
   const selectedLanguage = Object.keys(cookies).includes('selectedLanguage') ? cookies.selectedLanguage : 'en'
+  console.log(languages[selectedLanguage])
   res.render('index', { ...languages[selectedLanguage], availableLanguages })
 })
 
