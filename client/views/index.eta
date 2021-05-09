@@ -25,6 +25,12 @@
 </noscript>
 </head>
 <body>
+  <% if(it.settings.text_align) { %>
+    <style>
+      * {
+        text-align: <%~ it.settings.text_align %>
+      <% } %>
+    </style>
   <div class="container">
     <video autoplay muted loop playsinline buffer class="bg-video"  poster="static/img/04-360p.webp">
       <!-- <source src="static/vid/04.webm" type="video/webm" /> -->
@@ -86,40 +92,40 @@
             <h4 class="comparison-title fade"><%~ it.compare_g1_t %></h4>
             <div class="grid-left bar fade" id="bitcoin-speed"></div>
             <div class="grid-right bar fade" id="nano-speed"></div>
-            <div class="grid-left fade">30 min</div>
-            <div class="grid-right fade">0.2s</div>
-            <p class="grid-left fade">Bitcoin</p>
-            <p class="grid-right fade">Nano</p>          
+            <div class="grid-left fade"><%~ it.data.tx_duration_bitcoin %></div>
+            <div class="grid-right fade"><%~ it.data.tx_duration_nano %></div>
+            <p class="grid-left fade"><%~ it.data.name_bitcoin %></p>
+            <p class="grid-right fade"><%~ it.data.name_nano %></p>          
             <p class="comparison-paragraph fade"><%~ it.compare_g1_p %></p>
           </div>
           <div class="comparison-grid">
             <h4 class="comparison-title fade"><%~ it.compare_g2_t %></h4>
             <div class="grid-left bar fade" id="bitcoin-fees"></div>
             <div class="grid-right bar fade" id="nano-fees"></div>
-            <div class="grid-left fade">$22</div>
-            <div class="grid-right fade">$0</div>
-            <p class="grid-left fade">Bitcoin</p>
-            <p class="grid-right fade">Nano</p>
+            <div class="grid-left fade"><%~ it.data.tx_fee_bitcoin %></div>
+            <div class="grid-right fade"><%~ it.data.tx_fee_nano %></div>
+            <p class="grid-left fade"><%~ it.data.name_bitcoin %></p>
+            <p class="grid-right fade"><%~ it.data.name_nano %></p>  
             <p class="comparison-paragraph fade"><%~ it.compare_g2_p %></p>
           </div>
           <div class="comparison-grid">
             <h4 class="comparison-title fade"><%~ it.compare_g3_t %></h4>
             <div class="grid-left bar fade" id="bitcoin-energy"></div>
             <div class="grid-right bar fade" id="nano-energy"></div>
-            <div class="grid-left fade">1'147'080 Wh</div>
-            <div class="grid-right fade">0.112 Wh</div>
-            <p class="grid-left fade">Bitcoin</p>
-            <p class="grid-right fade">Nano</p>
+            <div class="grid-left fade"><%~ it.data.tx_energy_bitcoin %></div>
+            <div class="grid-right fade"><%~ it.data.tx_energy_nano %></div>
+            <p class="grid-left fade"><%~ it.data.name_bitcoin %></p>
+            <p class="grid-right fade"><%~ it.data.name_nano %></p>     
             <p class="comparison-paragraph fade"><%~ it.compare_g3_p %></p>
           </div>
           <div class="comparison-grid">
             <h4 class="comparison-title fade"><%~ it.compare_g4_t %></h4>
             <div class="grid-left bar fade" id="bitcoin-tx"></div>
             <div class="grid-right bar fade" id="nano-tx"></div>
-            <div class="grid-left fade">1 txs</div>
-            <div class="grid-right fade">10'200'000 txs</div>
-            <p class="grid-left fade">Bitcoin</p>
-            <p class="grid-right fade">Nano</p>
+            <div class="grid-left fade"><%~ it.data.tx_num_bitcoin %></div>
+            <div class="grid-right fade"><%~ it.data.tx_num_nano %></div>
+            <p class="grid-left fade"><%~ it.data.name_bitcoin %></p>
+            <p class="grid-right fade"><%~ it.data.name_nano %></p>     
             <p class="comparison-paragraph fade"><%~ it.compare_g4_p %></p>
           </div>
         </div>
