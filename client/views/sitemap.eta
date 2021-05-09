@@ -7,4 +7,8 @@
     <loc>https://www.whynano.cc/</loc>
     <lastmod><%~ it.date.toISOString()%></lastmod>
   </url>
+  <url>
+    <loc>https://www.whynano.cc/404</loc>
+    <lastmod><%~ it.date.toISOString()%></lastmod>
+  </url>
 </urlset>
