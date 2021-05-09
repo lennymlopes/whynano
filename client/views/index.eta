@@ -102,10 +102,10 @@
             <h4 class="comparison-title fade"><%~ it.compare_g2_t %></h4>
             <div class="grid-left bar fade" id="bitcoin-fees"></div>
             <div class="grid-right bar fade" id="nano-fees"></div>
-            <div class="grid-left fade"><%~ it.data.tx_fee__bitcoin %></div>
+            <div class="grid-left fade"><%~ it.data.tx_fee_bitcoin %></div>
             <div class="grid-right fade"><%~ it.data.tx_fee_nano %></div>
-            <p class="grid-left fade">Bitcoin</p>
-            <p class="grid-right fade">Nano</p>
+            <p class="grid-left fade"><%~ it.data.name_bitcoin %></p>
+            <p class="grid-right fade"><%~ it.data.name_nano %></p>  
             <p class="comparison-paragraph fade"><%~ it.compare_g2_p %></p>
           </div>
           <div class="comparison-grid">
