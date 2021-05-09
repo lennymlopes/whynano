@@ -174,8 +174,6 @@
           <% for(lang of it.availableLanguages) { %>
             <option lang="<%~ lang.iso %>" value="<%~ lang.value %>" <%~lang.iso===it.iso ? 'selected' : ''%>><%~ lang.display_name %></option>
           <% } %>
-          <!-- <option lang="de" value="deutsch">Deutsch</option> -->
-          <!-- other language options -->
         </select>
       </form>
       
