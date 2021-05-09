@@ -37,7 +37,6 @@ app.get('/', (req, res) => {
   const userLanguages = req.acceptsLanguages()
   const cookies = parseCookies(req.headers.cookie)
   const selectedLanguage = Object.keys(cookies).includes('selectedLanguage') ? cookies.selectedLanguage : 'en'
-  console.log(languages[selectedLanguage])
   res.render('index', { ...languages[selectedLanguage], availableLanguages })
 })
 
