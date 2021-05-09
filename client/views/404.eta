@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nano is a instant, feeless and eco-friendly digital currency for everyday transactions. Unlike many other cryptocurenncies, it does not rely on a Blockchain (e.g. Bitcoin, Bitcoin Cash and Ethereum), but instead uses a Directed Acyclical Graph. This groundbreaking technology allows Nano to be extremely fast and efficient.">
+  <title>Why Nano? - A digital currency for a brighter future!</title>
+  <link rel="stylesheet" href="static/css/main.css">
+  <script defer src="static/js/main.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/ico/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/ico/favicon-16x16.png">
+  <link rel="manifest" href="/static/site.webmanifest">
+  <meta property="og:title" content="Why Nano? - A digital currency for a brighter future!?">
+  <meta property="og:description" content="Nano is a instant, feeless and eco-friendly digital currency for everyday transactions. Unlike many other cryptocurenncies, it does not rely on a Blockchain (e.g. Bitcoin, Bitcoin Cash and Ethereum), but instead uses a Directed Acyclical Graph. This groundbreaking technology allows Nano to be extremely fast and efficient.">
+  <meta property="og:image" content="https://whynano.cc/static/img/preview.png">
+  <meta property="og:url" content="https://whynano.cc">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap">
+  <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap">
+</noscript>
+</head>
+<body>
+  <div class="container">
+    <video autoplay muted loop playsinline buffer class="bg-video"  poster="static/img/04-360p.webp">
+      <source src="static/vid/04-360p.mp4" type="video/mp4" />
+    </video>
+    <div class="main" id="main">
+
+      <section class="transparent">
+        <div class="section-group">
+          <h3 class="section-title">This is not the page you are looking for.</h3>
+          <p class="section-paragraph">Seems like you've taken a wrong turn somewhere!</p>  
+          <p class="section-paragraph"><a href="https://www.whynano.cc">Back to the main site</a></p> 
+          
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>

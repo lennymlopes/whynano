@@ -51,6 +51,10 @@ app.get('/sitemap.xml', (req, res) => {
   res.render('sitemap', { date: d })
 })
 
+app.get('*', (req, res) => {
+  res.render('404')
+})
+
 app.listen(PORT, () => {
   console.log(`listening on http://localhost:${PORT}`)
 })
