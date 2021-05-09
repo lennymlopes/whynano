@@ -160,6 +160,8 @@
         <p><%~ it.about_s1 %> <a href="https://lenny.digital" target="_blank" rel="noopener">lenny.digital</a></p>
         <p><%~ it.about_p1 %></p>
         <p>nano_1ybhgzr3xr1qce4ccg6jou7jrtgfzopuab3aw6tfbqgt6hinhj9hx8w8tftk</p>
+        <p><a href="https://twitter.com/nanosaurus_flex">Twitter</a></p>
+        
       </div>
       <button id="about-button"><%~ it.about_button %></button>
     </footer>
