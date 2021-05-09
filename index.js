@@ -18,6 +18,9 @@ const PORT = process.env.PORT || 5000
 
 const languages = {}
 const availableLanguages = []
+const d = new Date()
+
+
 fs.readdir('./languages', (err, filenames) => {
   console.log(filenames)
   for (file of filenames) {
@@ -34,6 +37,18 @@ app.get('/', (req, res) => {
   const cookies = parseCookies(req.headers.cookie)
   const selectedLanguage = Object.keys(cookies).includes('selectedLanguage') ? cookies.selectedLanguage : 'en'
   res.render('index', { ...languages[selectedLanguage], availableLanguages })
+})
+
+// robots.txt
+app.get('/robots.txt', function (req, res) {
+  res.type('text/plain')
+  res.send('User-agent: *\nDisallow:')
+})
+
+app.get('/sitemap.xml', (req, res) => {
+  d.setDate(d.getDate() - 1)
+  res.header('Content-Type', 'application/xml')
+  res.render('sitemap', { date: d })
 })
 
 app.listen(PORT, () => {
