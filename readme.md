@@ -23,6 +23,9 @@ Right now, the page is available in English and German. I'm hoping for people to
 If you would like to help translate this page into more languages or contribute in any other way, please open a pull request.
 
 
+## Contributors
+
+[@jaumebosch](https://www.twitter.com/jaumebosch) - added spanisch and catalan
 
 ## Support
 

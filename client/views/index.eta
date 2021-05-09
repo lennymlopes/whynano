@@ -180,7 +180,7 @@
         <select name="language-picker-select" id="language-picker-select">
           
           <% for(lang of it.availableLanguages) { %>
-            <option lang="<%~ lang.iso %>" value="<%~ lang.value %>" <%~lang.iso===it.iso ? 'selected' : ''%>><%~ lang.display_name %></option>
+            <option lang="<%~ lang.iso %>" value="<%~ lang.value %>" <%~lang.iso===it.settings.iso ? 'selected' : ''%>><%~ lang.display_name %></option>
           <% } %>
         </select>
       </form>
