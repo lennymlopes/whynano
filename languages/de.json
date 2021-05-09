@@ -4,6 +4,19 @@
     "value": "deutsch",
     "display_name": "Deutsch"
   },
+  "data": {
+    "name_nano": "Nano",
+    "name_bitcoin": "Bitcoin",
+    "tx_duration_bitcoin": "30 min",
+    "tx_duration_nano": "0.2s",
+    "tx_fee_bitcoin": "$22",
+    "tx_fee_nano": "$0",
+    "tx_energy_bitcoin": "1'147'080 Wh",
+    "tx_energy_nano": "0.112 Wh",
+    "tx_num_bitcoin": "1 tx",
+    "tx_num_nano": "10'200'000 txs"
+    
+  },
   "hero_title": "Wieso Nano?",
   "hero_subtitle": "Schnell. Gebührenlos. Umweltfreundlich.",
   "what_title": "Was ist Nano?",
