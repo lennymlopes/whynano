@@ -79,16 +79,26 @@
         </div>
       </section>
       <section class="transparent">
-        <div class="section-group">
-          <h3 class="section-title fade"><%~ it.benefit_title%></h3>
-          <p class="section-paragraph fade"><%~ it.benefit_p1 %></p>  
-          <p class="section-paragraph fade"><%~ it.benefit_p2 %></p>
+        <div class="section-group" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 class="section-title fade" itemprop="name"><%~ it.benefit_title%></h3>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <div itemprop="text">
+              <p class="section-paragraph fade"><%~ it.benefit_p1 %></p>  
+              <p class="section-paragraph fade"><%~ it.benefit_p2 %></p>
+            </div>
+          </div>
+          
         </div>
       </section>
       <section class="solid">
-        <div class="section-group">
-          <h3 class="section-title fade"><%~ it.amount_title %></h3>
-          <p class="section-paragraph fade"><%~ it.amount_p1 %></p>  
+        <div class="section-group" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 class="section-title fade" itemprop="name"><%~ it.amount_title %></h3>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <div itemprop="text">
+              <p class="section-paragraph fade"><%~ it.amount_p1 %></p>  
+            </div>
+          </div>
+          
         </div>
       </section>
       <section class="transparent">
