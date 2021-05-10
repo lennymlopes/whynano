@@ -175,7 +175,7 @@ svg {
 .main section {
   
   /* max-width: 75ch; */
-  width: 100vw;
+  width: 100%;
   padding: 2rem;
   min-height: 100vh;
   height: max-content;
@@ -433,7 +433,7 @@ footer {
   padding: 1rem;
   padding-bottom: 2rem;
   font-size: larger;
-  width: 100vw;
+  width: 100%;
 }
 
 
