@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<%~ it.settings.iso %>">
+<html lang="<%~ it.settings.iso %>" itemscope itemtype="https://schema.org/FAQPage">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -65,11 +65,14 @@
     </div>
     <div class="main" id="main">
       <section class="solid">
-        <div class="section-group">
-          <h3 class="section-title fade"><%~ it.what_title %></h3>
-          <p class="section-paragraph fade"><%~ it.what_p1 %></p>
-          <p class="section-paragraph fade"><%~ it.what_p2 %></p>
-          <p class="section-paragraph fade"><%~ it.what_p3 %></p>
+        <div class="section-group" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 class="section-title fade" itemprop="name"><%~ it.what_title %></h3>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p class="section-paragraph fade" itemprop="text"><%~ it.what_p1 %></p>
+            <p class="section-paragraph fade" itemprop="text"><%~ it.what_p2 %></p>
+            <p class="section-paragraph fade" itemprop="text"><%~ it.what_p3 %></p>
+          </div>
+          
         </div>
       </section>
       <section class="transparent">
