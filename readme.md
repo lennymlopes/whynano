@@ -31,6 +31,8 @@ If you would like to help translate this page into more languages or contribute 
 
 [@fabiandev42](https://twitter.com/fabiandev42) - helped with spanish translation
 
+[@MrPlanN](https://twitter.com/MrPlanN) - added russian
+
 ## Support
 
 If you would like to support this project and others like it (e.g. help me pay for hosting), consider donating to nano_1ybhgzr3xr1qce4ccg6jou7jrtgfzopuab3aw6tfbqgt6hinhj9hx8w8tftk. Any tips are sincerely appreciated!
