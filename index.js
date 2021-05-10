@@ -38,6 +38,21 @@ app.get('/', (req, res) => {
   res.render('index', { ...languages[selectedLanguage], availableLanguages })
 })
 
+
+
+// robots.txt
+app.get('/robots.txt', function (req, res) {
+  res.type('text/plain')
+  res.send('User-agent: *\nDisallow:')
+})
+
+app.get('/sitemap.xml', (req, res) => {
+  d.setDate(d.getDate() - 1)
+  console.log(availableLanguages)
+  res.header('Content-Type', 'application/xml')
+  res.render('sitemap', { date: d , languages: availableLanguages})
+})
+
 app.get('/:lang', (req, res) => {
   let selectedLanguage = req.params.lang
   let available = availableLanguages.map(language => language.iso)
@@ -48,18 +63,6 @@ app.get('/:lang', (req, res) => {
     res.render('404')
   }
   
-})
-
-// robots.txt
-app.get('/robots.txt', function (req, res) {
-  res.type('text/plain')
-  res.send('User-agent: *\nDisallow:')
-})
-
-app.get('/sitemap.xml', (req, res) => {
-  d.setDate(d.getDate() - 1)
-  res.header('Content-Type', 'application/xml')
-  res.render('sitemap', { date: d })
 })
 
 app.get('*', (req, res) => {

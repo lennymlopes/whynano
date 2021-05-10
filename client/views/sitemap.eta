@@ -7,6 +7,12 @@
     <loc>https://www.whynano.cc/</loc>
     <lastmod><%~ it.date.toISOString()%></lastmod>
   </url>
+  <% for(language of it.languages){ %>
+  <url>
+    <loc>https://www.whynano.cc/<%~ language.iso %></loc>
+    <lastmod><%~ it.date.toISOString()%></lastmod>
+  </url>
+  <% } %>
   <url>
     <loc>https://www.whynano.cc/404</loc>
     <lastmod><%~ it.date.toISOString()%></lastmod>
