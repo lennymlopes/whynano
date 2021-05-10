@@ -26,5 +26,6 @@ const languagePicker = document.querySelector('#language-picker-select')
 languagePicker.addEventListener('change', () => {
   const selectedLanguage = languagePicker.selectedOptions[0].getAttribute('lang')
   setCookie('selectedLanguage', selectedLanguage)
-  location.reload()
+  window.location = "/"
+  
 })
