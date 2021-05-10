@@ -22,13 +22,11 @@ const d = new Date()
 
 
 fs.readdir('./languages', (err, filenames) => {
-  console.log(filenames)
   for (file of filenames) {
     fs.readFile('./languages/' + file, 'utf-8', (err, content) => {
       content = JSON.parse(content)
       languages[content.settings.iso] = content
       availableLanguages.push({ iso: content.settings.iso, value: content.settings.value, display_name: content.settings.display_name })
-      console.log(availableLanguages)
     })
   }
 })
@@ -38,6 +36,18 @@ app.get('/', (req, res) => {
   const cookies = parseCookies(req.headers.cookie)
   const selectedLanguage = Object.keys(cookies).includes('selectedLanguage') ? cookies.selectedLanguage : 'en'
   res.render('index', { ...languages[selectedLanguage], availableLanguages })
+})
+
+app.get('/:lang', (req, res) => {
+  let selectedLanguage = req.params.lang
+  let available = availableLanguages.map(language => language.iso)
+  if(available.includes(selectedLanguage)) {
+    res.render('index', { ...languages[selectedLanguage], availableLanguages })
+  }
+  else {
+    res.render('404')
+  }
+  
 })
 
 // robots.txt
