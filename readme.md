@@ -33,7 +33,7 @@ If you would like to help translate this page into more languages or contribute 
 
 [@MrPlanN](https://twitter.com/MrPlanN) - added russian
 
-[@siiipatron](twitter.com/siiipatron)
+[@siiipatron](twitter.com/siiipatron) - added croatian
 
 ## Support
 
