@@ -68,9 +68,12 @@
         <div class="section-group" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
           <h3 class="section-title fade" itemprop="name"><%~ it.what_title %></h3>
           <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-            <p class="section-paragraph fade" itemprop="text"><%~ it.what_p1 %></p>
-            <p class="section-paragraph fade" itemprop="text"><%~ it.what_p2 %></p>
-            <p class="section-paragraph fade" itemprop="text"><%~ it.what_p3 %></p>
+            <div itemprop="text">
+              <p class="section-paragraph fade"><%~ it.what_p1 %></p>
+              <p class="section-paragraph fade"><%~ it.what_p2 %></p>
+              <p class="section-paragraph fade"><%~ it.what_p3 %></p>
+            </div>
+            
           </div>
           
         </div>
