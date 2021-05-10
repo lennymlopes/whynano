@@ -25,7 +25,7 @@ If you would like to help translate this page into more languages or contribute 
 
 ## Contributors
 
-[@jaumebosch](https://www.twitter.com/jaumebosch) - added spanisch and catalan
+[@jaumebosch](https://www.twitter.com/jaumebosch) - added spanish and catalan
 
 ## Support
 
