@@ -1,6 +1,6 @@
 {
   "settings": {
-    "iso": "dk",
+    "iso": "da",
     "value": "danish",
     "display_name": "Dansk"
   },
@@ -26,7 +26,7 @@
   "what_p2": "Det er <em> øjeblikkeligt, gebyrfri og miljøvenligt. </em> Den er også decentral, sikker, effektiv og tilgængelig.",
   "what_p3": "Nano giver en intuitiv oplevelse, der føles som digital valuta skal - <em> enkel, hurtig og <i> som det skal være </i>. </em>",
   "benefit_title": "Hvordan kan det hjælpe mig?",
-  "benefit_p1": "Som bruger kan du <em> sende penge til venner og familie overalt i verden </em> med det samme uden nogen anden involveret eller tager et andel! Eller måske støtte en sag, du kan lide direkte, ligegyldigt hvor langt væk! ",
+  "benefit_p1": "Som bruger kan du <em> sende penge til venner og familie overalt i verden </em> med det samme uden nogen anden involveret eller tager en andel! Eller måske støtte en sag, du kan lide direkte, ligegyldigt hvor langt væk! ",
   "benefit_p2": "Som virksomhed kan du tilbyde dine kunder en problemfri, enkel og hurtig betalingsoplevelse, mens du <em> sparer kortafgifter og sænker infrastrukturomkostninger! </em>",
   "amount_title": "Hvor mange er der?",
   "amount_p1": "Kun <em> 133 millioner nano </em> vil nogensinde eksistere, og alle er allerede i omløb. Dette betyder <em> ingen monetær inflation nogensinde. </em>",
@@ -40,7 +40,7 @@
   "compare_g4_t": "Bitcoin <span class = 'bitcoin-orange'> spilder for meget energi. </span> Nano <em> bruger meget lidt. </em>",
   "compare_g4_p": "Med den energi, der bruges til en enkelt Bitcoin-transaktion, kan du foretage mere end 10 millioner Nano-transaktioner.",
   "community_title": "Er der et fælleskab?",
-  "community_p1": "Ja, og det er et af de mest aktive, venlige og hjælpsomme fælleskab ud af alle kryptovalutaer!",
+  "community_p1": "Ja, og det er et af de mest aktive, venlige og hjælpsomme fælleskaber ud af alle kryptovalutaer!",
   "community_s1": "Det betyder ikke noget, om du er udvikler, entusiast, virksomhedsejer eller bare har et par spørgsmål! Kom og sig hej på",
   "community_s2": "eller det",
   "community_forum": "officielle forum!",
