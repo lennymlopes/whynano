@@ -171,7 +171,7 @@
             <%~ it.next_s3 %>
             <a href="https://www.wenano.net" target="_blank" rel="noopener" title="PokemonGo for Cryptocurrency">WeNano</a>
             <%~ it.next_s4 %>
-            <a href="https://www.nano.org" target="_blank" rel="noopener" title="Website of the Nano Foundation"><%~ it.next_nano_foundation %></a>
+            <a href="https://nano.org" target="_blank" rel="noopener" title="Website of the Nano Foundation"><%~ it.next_nano_foundation %></a>
           </p>
           <p class="section-paragraph fade"><%~ it.next_p1 %></p>
         </div>
