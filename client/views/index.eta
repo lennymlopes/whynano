@@ -15,8 +15,9 @@
   <meta property="og:title" content="<%~ it.page_title %>">
   <meta property="og:description" content="<%~ it.page_description %>">
   <meta property="og:image" content="https://whynano.cc/static/img/preview.png">
-  <meta property="og:url" content="https://whynano.cc">
+  <meta property="og:url" content="https://whynano.cc/<%~ it.settings.iso %>">
   <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://whynano.cc/<%~ it.settings.iso %>" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap">
   <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap">
