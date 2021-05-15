@@ -26,18 +26,13 @@ If you would like to help translate this page into more languages or contribute 
 ## Contributors
 
 [@jaumebosch](https://www.twitter.com/jaumebosch) - added spanish and catalan
-
 [@marcosbmf](https://www.twitter.com/marcosbmf) - added brazilian portugese
-
 [@fabiandev42](https://twitter.com/fabiandev42) - helped with spanish translation
-
 [@MrPlanN](https://twitter.com/MrPlanN) - added russian
-
 [@siiipatron](https://twitter.com/siiipatron) - added croatian
-
 [@NanoZaida](https://twitter.com/NanoZaida) - added swedish
-
 [u/DePostbode](https://www.reddit.com/user/DePostbode) - dutch spelling correction
+[u/Davasei](https://www.reddit.com/user/Davasei) - added galician
 
 ## Support
 
