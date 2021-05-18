@@ -40,6 +40,10 @@ app.get('/', (req, res) => {
   res.render('index', { ...languages[selectedLanguage], availableLanguages })
 })
 
+app.get('/sources', (req, res) => {
+  res.render('sources')
+})
+
 
 
 // robots.txt
