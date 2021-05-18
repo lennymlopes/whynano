@@ -472,6 +472,7 @@ footer {
   margin-bottom: 1rem;
   /* padding: 1rem 0; */
   width: 100%;
+  display: block;
 }
 
 #about-section > p {
@@ -485,6 +486,7 @@ footer {
 #about-section.hidden {
   transition: opacity 0.5s;
   opacity: 0;
+  display: none;
 }
 
 #about-button {
