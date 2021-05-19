@@ -26,6 +26,11 @@
 </noscript>
 </head>
 <body>
+  <script>
+    if (location.protocol !== 'https:') {
+      location.replace(`https:${location.href.substring(location.protocol.length)}`);
+    }
+  </script>
   <% if(it.settings.text_align) { %>
     <style>
       * {
