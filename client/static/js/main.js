@@ -1,3 +1,7 @@
+if (location.protocol !== 'https:') {
+  location.replace(`https:${location.href.substring(location.protocol.length)}`);
+}
+
 window.addEventListener('scroll', () => {
   const sections = document.querySelectorAll('.fade')
   const position = window.innerHeight
