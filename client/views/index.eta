@@ -156,7 +156,7 @@
             <%~ it.community_s1 %>
             <a href="https://www.reddit.com/r/nanocurrency/" target="_blank" rel="noopener">Reddit</a>,
             <a href="https://twitter.com/nano" target="_blank" rel="noopener">Twitter</a>,
-            <a href="https://t.me/nanocurrency" target="_blank" rel="noopener">Telegram</a>
+            <a href="https://t.me/nanocurrency" target="_blank" rel="noopener">Telegram</a><%~ it.community_local_fb_link ? `, <a href="${it.community_local_fb_link}" target="_blank" rel="noopener">${it.community_local_fb_text}</a>` : "" %>
             <%~ it.community_s2 %> <a href="https://forum.nano.org/" target="_blank" rel="noopener"><%~ it.community_forum %></a>
           </p>  
           <p class="section-paragraph fade"><%~ it.community_p2 %></p>
