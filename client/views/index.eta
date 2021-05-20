@@ -73,6 +73,7 @@
               <p class="section-paragraph fade"><%~ it.what_p1 %></p>
               <p class="section-paragraph fade"><%~ it.what_p2 %></p>
               <p class="section-paragraph fade"><%~ it.what_p3 %></p>
+              <%~ it.what_p4 ? `<p class="section-paragraph fade">${it.what_p4}</p>` : "" %>
             </div>
             
           </div>
