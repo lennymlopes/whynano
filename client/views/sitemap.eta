@@ -14,6 +14,10 @@
   </url>
   <% } %>
   <url>
+    <loc>https://www.whynano.cc/sources</loc>
+    <lastmod><%~ it.date.toISOString()%></lastmod>
+  </url>
+  <url>
     <loc>https://www.whynano.cc/404</loc>
     <lastmod><%~ it.date.toISOString()%></lastmod>
   </url>
