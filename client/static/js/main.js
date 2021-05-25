@@ -1,4 +1,4 @@
-if (location.protocol !== 'https:') {
+if (location.protocol !== 'https:' && !location.href.includes("localhost")) {
   location.replace(`https:${location.href.substring(location.protocol.length)}`);
 }
 
@@ -26,10 +26,22 @@ function setCookie (name, value) {
   document.cookie = `${name}=${value}; max-age=${YEAR}; path=/`
 }
 
+function getCookies(name='') {
+  let cookies = {}
+  for(cookie of document.cookie.split(';')) {
+    let [key, value] = cookie.split('=')
+    cookies[key] = value
+  }
+  if(name) {
+    // return value if cookie exist, return undefined otherwise
+    return Object.keys(cookies).includes(name) ? cookies[name] : undefined
+  }
+  return cookies
+}
+
 const languagePicker = document.querySelector('#language-picker-select')
 languagePicker.addEventListener('change', () => {
   const selectedLanguage = languagePicker.selectedOptions[0].getAttribute('lang')
   setCookie('selectedLanguage', selectedLanguage)
   window.location = "/"
-  
 })
