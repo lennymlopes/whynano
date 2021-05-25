@@ -39,6 +39,10 @@ function getCookies(name='') {
   return cookies
 }
 
+if(getCookies("selectedLanguage") === undefined) {
+  setCookie('selectedLanguage', 'en')
+}
+
 const languagePicker = document.querySelector('#language-picker-select')
 languagePicker.addEventListener('change', () => {
   const selectedLanguage = languagePicker.selectedOptions[0].getAttribute('lang')
