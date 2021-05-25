@@ -33,6 +33,11 @@ fs.readdir('./languages', (err, filenames) => {
   }
 })
 
+app.use((req, res, next) => {
+  console.log(`${req.method} ${req.originalUrl} ${new Date()}`) 
+  next()
+})
+
 app.get('/', (req, res) => {
   const userLanguages = req.acceptsLanguages()
   const cookies = parseCookies(req.headers.cookie)
