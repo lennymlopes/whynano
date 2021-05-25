@@ -25,9 +25,11 @@ const d = new Date()
 
 const MONGODB_USER = process.env.MONGODB_USER
 const MONGODB_PW = process.env.MONGODB_PW
+const MONGODB_URL = process.env.MONGODB_URL
 const MONGODB_DB = process.env.MONGODB_DB
 
-
+const MONGODB_URI = `mongodb+srv://${MONGODB_USER}:${MONGODB_PW}@${MONGODB_URL}/${MONGODB_DB}?retryWrites=true&w=majority`
+mongoose.connect(MONGODB_URI, options)
 
 fs.readdir('./languages', (err, filenames) => {
   for (let file of filenames) {
@@ -45,6 +47,7 @@ app.use((req, res, next) => {
   const cookies = parseCookies(req.headers.cookie)
   const existing = Object.keys(cookies).includes('selectedLanguage') ? "existing user" : "new user"
   console.log(`${req.method} ${req.originalUrl} ${new Date()} ${existing}`) 
+  Request.create({path: req.method, time: new Date(), newUser: !Object.keys(cookies).includes('selectedLanguage')})
   next()
 })
 
