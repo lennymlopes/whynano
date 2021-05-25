@@ -3,6 +3,9 @@ const compression = require('compression')
 const path = require('path')
 const eta = require('eta')
 const fs = require('fs')
+const mongoose = require('mongoose')
+
+const Request = require('./models/request')
 
 const app = express()
 app.use(compression())
@@ -19,6 +22,11 @@ const PORT = process.env.PORT || 5000
 const languages = {}
 const availableLanguages = []
 const d = new Date()
+
+const MONGODB_USER = process.env.MONGODB_USER
+const MONGODB_PW = process.env.MONGODB_PW
+const MONGODB_DB = process.env.MONGODB_DB
+
 
 
 fs.readdir('./languages', (err, filenames) => {
