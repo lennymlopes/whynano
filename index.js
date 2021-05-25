@@ -35,8 +35,7 @@ fs.readdir('./languages', (err, filenames) => {
 
 app.use((req, res, next) => {
   const cookies = parseCookies(req.headers.cookie)
-  const user = Object.keys(cookies).includes('selectedLanguage')
-  const existing = user ? "existing user" : "new user"
+  const existing = Object.keys(cookies).includes('selectedLanguage') ? "existing user" : "new user"
   console.log(`${req.method} ${req.originalUrl} ${new Date()} ${existing}`) 
   next()
 })
