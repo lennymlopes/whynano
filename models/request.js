@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 
 requestSchema = new mongoose.Schema({
+  base: String,
   path: String,
   time: Date,
   newUser: Boolean

@@ -29,6 +29,12 @@ const MONGODB_URL = process.env.MONGODB_URL
 const MONGODB_DB = process.env.MONGODB_DB
 
 const MONGODB_URI = `mongodb+srv://${MONGODB_USER}:${MONGODB_PW}@${MONGODB_URL}/${MONGODB_DB}?retryWrites=true&w=majority`
+
+// mongoose setup
+const options = {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+}
 mongoose.connect(MONGODB_URI, options)
 
 fs.readdir('./languages', (err, filenames) => {
@@ -46,8 +52,8 @@ fs.readdir('./languages', (err, filenames) => {
 app.use((req, res, next) => {
   const cookies = parseCookies(req.headers.cookie)
   const existing = Object.keys(cookies).includes('selectedLanguage') ? "existing user" : "new user"
-  console.log(`${req.method} ${req.originalUrl} ${new Date()} ${existing}`) 
-  Request.create({path: req.method, time: new Date(), newUser: !Object.keys(cookies).includes('selectedLanguage')})
+  console.log(`${req.method} ${req.originalUrl} ${new Date()} ${existing} ${req.get("host")}`) 
+  Request.create({base: req.get("host"), path: req.method, time: new Date(), newUser: !Object.keys(cookies).includes('selectedLanguage')})
   next()
 })
 
