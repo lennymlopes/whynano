@@ -53,7 +53,7 @@ app.use((req, res, next) => {
   const cookies = parseCookies(req.headers.cookie)
   const existing = Object.keys(cookies).includes('selectedLanguage') ? "existing user" : "new user"
   console.log(`${req.method} ${req.originalUrl} ${new Date()} ${existing} ${req.get("host")}`) 
-  Request.create({base: req.get("host"), path: req.method, time: new Date(), newUser: !Object.keys(cookies).includes('selectedLanguage')})
+  Request.create({base: req.get("host"), path: req.originalUrl, time: new Date(), newUser: !Object.keys(cookies).includes('selectedLanguage')})
   next()
 })
 
