@@ -4,7 +4,8 @@ requestSchema = new mongoose.Schema({
   base: String,
   path: String,
   time: Date,
-  newUser: Boolean
+  newUser: Boolean,
+  language: String
 })
 
 module.exports = mongoose.model('Request', requestSchema)
