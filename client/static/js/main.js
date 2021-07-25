@@ -14,13 +14,6 @@ window.addEventListener('scroll', () => {
   }
 })
 
-const aboutButton = document.querySelector('#about-button')
-const aboutSection = document.querySelector('#about-section')
-aboutSection.classList.add('hidden')
-aboutButton.addEventListener('click', () => {
-  aboutSection.classList.toggle('hidden')
-})
-
 function setCookie (name, value) {
   const YEAR = 60 * 60 * 24 * 365
   document.cookie = `${name}=${value}; max-age=${YEAR}; path=/`
