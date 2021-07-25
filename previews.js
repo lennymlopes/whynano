@@ -4,7 +4,7 @@ const fs = require('fs');
 async function create() {
   
   
-  let width = 600
+  let width = 800
   let height = Math.floor(width / 1.91)
   console.log(`${width}x${height}`)
   
