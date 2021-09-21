@@ -2,7 +2,7 @@
 
 
 
-![whynano.cc hero section](readme/hero.png)
+![whynano.cc hero section](client/static/img/preview_en.png)
 
 ## Introduction
 
