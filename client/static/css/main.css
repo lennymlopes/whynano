@@ -219,9 +219,9 @@ svg {
   background: linear-gradient(to bottom, var(--color-bg), var(--color-fade));
 }
 
-/* section.transparent {
-  background-color: var(--color-transparent);
-} */
+ section.transparent {
+  z-index: 6;
+} 
 
 .section-group {
   width: 100%;
