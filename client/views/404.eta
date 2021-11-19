@@ -11,6 +11,11 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/static/ico/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/static/ico/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/static/ico/favicon-16x16.png">
+  <link rel="manifest" href="/static/ico/site.webmanifest">
+  <link rel="mask-icon" href="/static/ico/safari-pinned-tab.svg" color="#209ce9">
+  <link rel="shortcut icon" href="/static/ico/favicon.ico">
+  <meta name="msapplication-TileColor" content="#209ce9">
+  <meta name="msapplication-config" content="/static/ico/browserconfig.xml">
   <link rel="manifest" href="/static/site.webmanifest">
   <meta property="og:title" content="Why Nano? - A digital currency for a brighter future!?">
   <meta property="og:description" content="Nano is a instant, feeless and eco-friendly digital currency for everyday transactions. Unlike many other cryptocurenncies, it does not rely on a Blockchain (e.g. Bitcoin, Bitcoin Cash and Ethereum), but instead uses a Directed Acyclical Graph. This groundbreaking technology allows Nano to be extremely fast and efficient.">
